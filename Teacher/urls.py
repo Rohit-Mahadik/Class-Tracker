@@ -1,0 +1,48 @@
+from django.urls import path
+from . import views
+from django.conf import settings
+from django.conf.urls.static import static
+
+urlpatterns = [
+    path('addsubject/', views.add_subject,name='addsubject'),
+    path('updatesubject/<int:id>',views.updatesubject,name='updatesubject'),
+    path('delete_subject/<int:id>',views.delete_subject,name='deletesubject'),
+    path('addbatch/', views.add_batch,name='addbatch'),
+    path('update_batch/<int:id>/',views.update_batch,name='updatebatch'),
+    path('delete_batch/<int:id>/',views.delete_batch,name='deletebatch'),
+    path('addstudent/', views.add_student,name='addstudent'),
+    path('viewallstudent/', views.view_all_student,name='viewallstudent'),
+    path('updatestudent/<str:id>/', views.update_stud,name='updatestudent'),
+    path('deletestudent/<str:id>/', views.delete_student,name='deletestudent'),
+    path('dashboardteacher/', views.dashboard,name='dashboardteacher'),
+	path('showbatch/', views.show_batch ,name='showbatch'),
+	path('showbatchstudent/<int:id>', views.show_batch_students,name='showbatchstudent'),
+	path('takeattendance/<int:id>',views.take_attendance,name='takeattendance'),
+	path('teacherviewattendance/',views.view_attendance_teacher,name='teacherviewattendance'),
+	path('sendmessage/',views.batch_message,name='sendmessage'),
+    path('passignment/<int:id>/', views.ViewAPerticularAssignment, name='passignment'),
+    path('updateassignment/<int:id>/', views.UpdateAssignment, name='updateassignment'),
+    path('deleteassignment/<int:id>/', views.DeleteAssignment, name='deleteassignment'),
+	path('makeannouncement/',views.make_announcement,name='makeannouncement'),
+    path('updatemsg/<int:id>/',views.UpdateMessage, name='updatemsg'),
+    path('deletemsg/<int:id>/',views.DeleteMessage, name='deletemsg'),
+	path('account_locked/',views.account_locked,name='account_locked'),
+	path('access_denied/',views.access_denied,name='access_denied'),
+    path('logout/', views.user_logout,name='logout'),
+    path('editadminprofile/', views.edit_user_profile,name='editadminprofile'),
+    path('adminPasswordChange/', views.adminPasswordChange, name='adminPasswordChange'),
+    path('searchstudent/', views.search_student, name='searchstudent'),
+    path('allleaveapplication/', views.all_leave_application, name='allleaveapplication'),
+    path('leaveapplication/', views.all_leave_application, name='leaveapplication'),
+    path('leavechecker/<int:id>/', views.leave_application_form, name='leavechecker'),
+    path('delete_leave/<int:id>/', views.delete_levae, name='delete_leave'),
+    path('announcementdetail/<int:id>/', views.announcement_detail, name='announcementdetail'),
+    path('tasks/<str:date>/', views.task_for_date, name='tasks_for_date'),
+    path('dashboardteacher/updatetask/<int:id>/', views.update_task, name='updatetask'),
+    path('add-task/', views.add_task, name='add_task'),
+    path('forgetpassword/', views.forget_password, name='forget_password'),
+    path('forgetchangepassword/<token>/', views.forget_change_password, name='forget_change_password'),
+    path('todaytaskdelete/<int:id>/', views.today_task_delete, name='todaytaskdelete'),
+    path('tasks/delete/<int:id>/', views.delete_task, name='delete_task'),
+    
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

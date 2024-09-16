@@ -1,0 +1,66 @@
+{% extends "Teacher/base.html" %} {% load static %} {% block content %}
+
+
+<h4 class="container mt-3 borderline textcolor pb-2">Add New Student</h4>
+
+
+{% if messages %}
+{% for message in messages %}
+<p {% if message.tags %} class="alert alert-{{ message.tags }} container"{% endif %}>{{ message }}</p>
+{% endfor %}
+{% endif %}
+
+
+<form action="" method="POST" class="container formshadow formbgcolor p-3 mt-5">
+
+    {% csrf_token %}
+
+    <div class="row pb-3">
+
+    <div class="col-sm-6"><p>{{fm.student_id.label}} {{fm.student_id}}</p></div>
+
+    <div class="col-sm-6"><p>{{fm.student_name.label}} {{fm.student_name}}</p></div>
+
+  </div>
+
+
+    <div class="row pb-3">
+
+    <div class="col-sm-6"><p>{{fm.student_number.label}} {{fm.student_number}}</p></div>
+
+    <div class="col-sm-6"><p>{{fm.student_dob.label}} {{fm.student_dob}}</p></div>
+
+  </div>
+
+    <div class="row pb-3">
+
+    <div class="col-sm-6"><p>{{fm.student_gender.label}} {{fm.student_gender}}</p></div>
+
+    <div class="col-sm-6"><p>{{fm.student_status.label}} {{fm.student_status}}</p></div>
+
+  </div>
+
+
+    <div class="row pb-3">
+
+    <div class="col-sm-12"><p>{{fm.student_address.label}} {{fm.student_address}}</p></div>
+
+  </div>
+
+  <div class="row pb-3">
+
+    <div class="col-sm-12"><p>{{fm.student_batch.label}} {{fm.student_batch}}</p></div>
+
+  </div>
+
+  
+
+  <input type="submit" class="btn buttoncolor" value="Update Student"/>
+
+</form>
+
+
+{% endblock content %}
+
+
+

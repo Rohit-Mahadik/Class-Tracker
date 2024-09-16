@@ -1,0 +1,2311 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urls",
+        "importPath": "Teacher",
+        "description": "Teacher",
+        "isExtraImport": true,
+        "detail": "Teacher",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "Teacher",
+        "description": "Teacher",
+        "isExtraImport": true,
+        "detail": "Teacher",
+        "documentation": {}
+    },
+    {
+        "label": "urls",
+        "importPath": "Student",
+        "description": "Student",
+        "isExtraImport": true,
+        "detail": "Student",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "AddSubject",
+        "importPath": "Teacher.models",
+        "description": "Teacher.models",
+        "isExtraImport": true,
+        "detail": "Teacher.models",
+        "documentation": {}
+    },
+    {
+        "label": "AddBatch",
+        "importPath": "Teacher.models",
+        "description": "Teacher.models",
+        "isExtraImport": true,
+        "detail": "Teacher.models",
+        "documentation": {}
+    },
+    {
+        "label": "AddStudent",
+        "importPath": "Teacher.models",
+        "description": "Teacher.models",
+        "isExtraImport": true,
+        "detail": "Teacher.models",
+        "documentation": {}
+    },
+    {
+        "label": "Batch_message",
+        "importPath": "Teacher.models",
+        "description": "Teacher.models",
+        "isExtraImport": true,
+        "detail": "Teacher.models",
+        "documentation": {}
+    },
+    {
+        "label": "Announcement",
+        "importPath": "Teacher.models",
+        "description": "Teacher.models",
+        "isExtraImport": true,
+        "detail": "Teacher.models",
+        "documentation": {}
+    },
+    {
+        "label": "LeavePlannerModel",
+        "importPath": "Teacher.models",
+        "description": "Teacher.models",
+        "isExtraImport": true,
+        "detail": "Teacher.models",
+        "documentation": {}
+    },
+    {
+        "label": "Attendence",
+        "importPath": "Teacher.models",
+        "description": "Teacher.models",
+        "isExtraImport": true,
+        "detail": "Teacher.models",
+        "documentation": {}
+    },
+    {
+        "label": "AddStudent",
+        "importPath": "Teacher.models",
+        "description": "Teacher.models",
+        "isExtraImport": true,
+        "detail": "Teacher.models",
+        "documentation": {}
+    },
+    {
+        "label": "Batch_message",
+        "importPath": "Teacher.models",
+        "description": "Teacher.models",
+        "isExtraImport": true,
+        "detail": "Teacher.models",
+        "documentation": {}
+    },
+    {
+        "label": "Announcement",
+        "importPath": "Teacher.models",
+        "description": "Teacher.models",
+        "isExtraImport": true,
+        "detail": "Teacher.models",
+        "documentation": {}
+    },
+    {
+        "label": "LeavePlannerModel",
+        "importPath": "Teacher.models",
+        "description": "Teacher.models",
+        "isExtraImport": true,
+        "detail": "Teacher.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UsernameField",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserChangeForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordChangeForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordChangeForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UsernameField",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserChangeForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordChangeForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordChangeForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "django.db",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db",
+        "description": "django.db",
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponseRedirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "update_session_auth_hash",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "update_session_auth_hash",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Q",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Q",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "ExtractMonth",
+        "importPath": "django.db.models.functions",
+        "description": "django.db.models.functions",
+        "isExtraImport": true,
+        "detail": "django.db.models.functions",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "require_POST",
+        "importPath": "django.views.decorators.http",
+        "description": "django.views.decorators.http",
+        "isExtraImport": true,
+        "detail": "django.views.decorators.http",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "MYPRO.asgi",
+        "description": "MYPRO.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "MYPRO.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "MYPRO.settings",
+        "description": "MYPRO.settings",
+        "peekOfCode": "BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = '7_(dd8k2zy2nh@ot+$mz%$fkm*3zhh^)xfr0%f_minb3h!y4$)'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "MYPRO.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "MYPRO.settings",
+        "description": "MYPRO.settings",
+        "peekOfCode": "SECRET_KEY = '7_(dd8k2zy2nh@ot+$mz%$fkm*3zhh^)xfr0%f_minb3h!y4$)'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "MYPRO.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "MYPRO.settings",
+        "description": "MYPRO.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "MYPRO.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "MYPRO.settings",
+        "description": "MYPRO.settings",
+        "peekOfCode": "ALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'Teacher',",
+        "detail": "MYPRO.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "MYPRO.settings",
+        "description": "MYPRO.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'Teacher',\n\t'Student',\n]",
+        "detail": "MYPRO.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "MYPRO.settings",
+        "description": "MYPRO.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n\t'Teacher.middlewares.my_middleware',\n]",
+        "detail": "MYPRO.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "MYPRO.settings",
+        "description": "MYPRO.settings",
+        "peekOfCode": "ROOT_URLCONF = 'MYPRO.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "MYPRO.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "MYPRO.settings",
+        "description": "MYPRO.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "MYPRO.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "MYPRO.settings",
+        "description": "MYPRO.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'MYPRO.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/3.0/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),\n    }\n}\n# Password validation",
+        "detail": "MYPRO.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "MYPRO.settings",
+        "description": "MYPRO.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "MYPRO.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "MYPRO.settings",
+        "description": "MYPRO.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "MYPRO.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "MYPRO.settings",
+        "description": "MYPRO.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR,'media')",
+        "detail": "MYPRO.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "MYPRO.settings",
+        "description": "MYPRO.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR,'media')\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'",
+        "detail": "MYPRO.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "MYPRO.settings",
+        "description": "MYPRO.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR,'media')\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'",
+        "detail": "MYPRO.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_L10N",
+        "kind": 5,
+        "importPath": "MYPRO.settings",
+        "description": "MYPRO.settings",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR,'media')\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587",
+        "detail": "MYPRO.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "MYPRO.settings",
+        "description": "MYPRO.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR,'media')\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True",
+        "detail": "MYPRO.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "MYPRO.settings",
+        "description": "MYPRO.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR,'media')\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'classtracker3@gmail.com'\nEMAIL_HOST_PASSWORD = 'slsk vtps huik tbts'\n# For production on PythonAnywhere (replace 'yourusername' with your actual username)",
+        "detail": "MYPRO.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "MYPRO.settings",
+        "description": "MYPRO.settings",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR,'media')\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'classtracker3@gmail.com'\nEMAIL_HOST_PASSWORD = 'slsk vtps huik tbts'\n# For production on PythonAnywhere (replace 'yourusername' with your actual username)\nDOMAIN = 'ClassTracker.pythonanywhere.com'",
+        "detail": "MYPRO.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "MYPRO.settings",
+        "description": "MYPRO.settings",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR,'media')\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'classtracker3@gmail.com'\nEMAIL_HOST_PASSWORD = 'slsk vtps huik tbts'\n# For production on PythonAnywhere (replace 'yourusername' with your actual username)\nDOMAIN = 'ClassTracker.pythonanywhere.com'",
+        "detail": "MYPRO.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_BACKEND",
+        "kind": 5,
+        "importPath": "MYPRO.settings",
+        "description": "MYPRO.settings",
+        "peekOfCode": "EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'classtracker3@gmail.com'\nEMAIL_HOST_PASSWORD = 'slsk vtps huik tbts'\n# For production on PythonAnywhere (replace 'yourusername' with your actual username)\nDOMAIN = 'ClassTracker.pythonanywhere.com'",
+        "detail": "MYPRO.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST",
+        "kind": 5,
+        "importPath": "MYPRO.settings",
+        "description": "MYPRO.settings",
+        "peekOfCode": "EMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'classtracker3@gmail.com'\nEMAIL_HOST_PASSWORD = 'slsk vtps huik tbts'\n# For production on PythonAnywhere (replace 'yourusername' with your actual username)\nDOMAIN = 'ClassTracker.pythonanywhere.com'",
+        "detail": "MYPRO.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_PORT",
+        "kind": 5,
+        "importPath": "MYPRO.settings",
+        "description": "MYPRO.settings",
+        "peekOfCode": "EMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'classtracker3@gmail.com'\nEMAIL_HOST_PASSWORD = 'slsk vtps huik tbts'\n# For production on PythonAnywhere (replace 'yourusername' with your actual username)\nDOMAIN = 'ClassTracker.pythonanywhere.com'",
+        "detail": "MYPRO.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_USE_TLS",
+        "kind": 5,
+        "importPath": "MYPRO.settings",
+        "description": "MYPRO.settings",
+        "peekOfCode": "EMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'classtracker3@gmail.com'\nEMAIL_HOST_PASSWORD = 'slsk vtps huik tbts'\n# For production on PythonAnywhere (replace 'yourusername' with your actual username)\nDOMAIN = 'ClassTracker.pythonanywhere.com'",
+        "detail": "MYPRO.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_USER",
+        "kind": 5,
+        "importPath": "MYPRO.settings",
+        "description": "MYPRO.settings",
+        "peekOfCode": "EMAIL_HOST_USER = 'classtracker3@gmail.com'\nEMAIL_HOST_PASSWORD = 'slsk vtps huik tbts'\n# For production on PythonAnywhere (replace 'yourusername' with your actual username)\nDOMAIN = 'ClassTracker.pythonanywhere.com'",
+        "detail": "MYPRO.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_PASSWORD",
+        "kind": 5,
+        "importPath": "MYPRO.settings",
+        "description": "MYPRO.settings",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = 'slsk vtps huik tbts'\n# For production on PythonAnywhere (replace 'yourusername' with your actual username)\nDOMAIN = 'ClassTracker.pythonanywhere.com'",
+        "detail": "MYPRO.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DOMAIN",
+        "kind": 5,
+        "importPath": "MYPRO.settings",
+        "description": "MYPRO.settings",
+        "peekOfCode": "DOMAIN = 'ClassTracker.pythonanywhere.com'",
+        "detail": "MYPRO.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "MYPRO.urls",
+        "description": "MYPRO.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n\tpath('',views.user_log,name=\"login\"),\n    path('teacher/', include(\"Teacher.urls\")),\n    path('student/', include(\"Student.urls\")),\n]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "MYPRO.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "MYPRO.wsgi",
+        "description": "MYPRO.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "MYPRO.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "StudentConfig",
+        "kind": 6,
+        "importPath": "Student.apps",
+        "description": "Student.apps",
+        "peekOfCode": "class StudentConfig(AppConfig):\n    name = 'Student'",
+        "detail": "Student.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Edit_profile_form",
+        "kind": 6,
+        "importPath": "Student.forms",
+        "description": "Student.forms",
+        "peekOfCode": "class Edit_profile_form(forms.ModelForm):\n\tstudent_gender = forms.ChoiceField(label='Gender',choices=GENDER_CHOICES,widget=forms.RadioSelect())\n\tclass Meta:\n\t\tmodel = AddStudent\n\t\tfields = ['student_name','student_id','student_number','student_dob','student_address','student_image','student_gender']\n\t\twidgets = {\n\t\t\t 'student_name':forms.TextInput(attrs={'class':'form-control'}),\n\t\t\t 'student_id':forms.TextInput(attrs={'class':'form-control'}),\n\t\t\t 'student_number':forms.NumberInput(attrs={'class':'form-control'}),\n\t\t\t 'student_dob':forms.DateInput(attrs={'class':'form-control','type':'date'}),",
+        "detail": "Student.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Edit_username_form",
+        "kind": 6,
+        "importPath": "Student.forms",
+        "description": "Student.forms",
+        "peekOfCode": "class Edit_username_form(UserChangeForm):\n\tclass Meta:\n\t\tmodel = User \n\t\tfields = ['username','email']\n\t\twidgets = {'username':forms.TextInput(attrs={'class':'form-control'}),\n\t\t\t \t\t'email':forms.EmailInput(attrs={'class':'form-control'}),\n\t\t\t }\nLEAVE_TYPE_CHOICES = (\n    ('AN', 'Annual Leave'),\n    ('SL', 'Sick Leave'),",
+        "detail": "Student.forms",
+        "documentation": {}
+    },
+    {
+        "label": "LeavePlannerForm",
+        "kind": 6,
+        "importPath": "Student.forms",
+        "description": "Student.forms",
+        "peekOfCode": "class LeavePlannerForm(forms.ModelForm):\n    leave_type = forms.ChoiceField(choices=LEAVE_TYPE_CHOICES,widget=forms.RadioSelect())\n    # leave_status = forms.ChoiceField(choices=LEAVE_STATUS_CHOICES,widget=forms.RadioSelect())\n    class Meta:\n        model = LeavePlannerModel\n        fields = ['leave_type','leave_startdate','leave_enddate','leave_reason']\n        widgets = {\n            'leave_startdate': forms.DateInput(attrs={'class': 'form-control', 'type': 'date'}),\n            'leave_enddate': forms.DateInput(attrs={'class': 'form-control', 'type': 'date'}),\n            'leave_reason': forms.Textarea(attrs={'class': 'form-control', 'rows': 3}),",
+        "detail": "Student.forms",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordChangingForm",
+        "kind": 6,
+        "importPath": "Student.forms",
+        "description": "Student.forms",
+        "peekOfCode": "class PasswordChangingForm(PasswordChangeForm):\n    old_password = forms.CharField(widget=forms.PasswordInput(attrs={'class': 'form-control',}))\n    new_password1 = forms.CharField(widget=forms.PasswordInput(attrs={'class': 'form-control',}))\n    new_password2 = forms.CharField(widget=forms.PasswordInput(attrs={'class': 'form-control',}))\n    class Meta:\n        models = User\n        fields = ['old_password', 'new_password1', 'new_password2']",
+        "detail": "Student.forms",
+        "documentation": {}
+    },
+    {
+        "label": "GENDER_CHOICES",
+        "kind": 5,
+        "importPath": "Student.forms",
+        "description": "Student.forms",
+        "peekOfCode": "GENDER_CHOICES = [\n\t('Male','Male'),\n\t('Female','Female'),\n\t('Other','Other'),\n]\n# Edit_profile_form\nclass Edit_profile_form(forms.ModelForm):\n\tstudent_gender = forms.ChoiceField(label='Gender',choices=GENDER_CHOICES,widget=forms.RadioSelect())\n\tclass Meta:\n\t\tmodel = AddStudent",
+        "detail": "Student.forms",
+        "documentation": {}
+    },
+    {
+        "label": "\tstudent_gender",
+        "kind": 5,
+        "importPath": "Student.forms",
+        "description": "Student.forms",
+        "peekOfCode": "\tstudent_gender = forms.ChoiceField(label='Gender',choices=GENDER_CHOICES,widget=forms.RadioSelect())\n\tclass Meta:\n\t\tmodel = AddStudent\n\t\tfields = ['student_name','student_id','student_number','student_dob','student_address','student_image','student_gender']\n\t\twidgets = {\n\t\t\t 'student_name':forms.TextInput(attrs={'class':'form-control'}),\n\t\t\t 'student_id':forms.TextInput(attrs={'class':'form-control'}),\n\t\t\t 'student_number':forms.NumberInput(attrs={'class':'form-control'}),\n\t\t\t 'student_dob':forms.DateInput(attrs={'class':'form-control','type':'date'}),\n\t\t\t 'student_address':forms.Textarea(attrs={'class':'form-control','rows':4}),",
+        "detail": "Student.forms",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tmodel",
+        "kind": 5,
+        "importPath": "Student.forms",
+        "description": "Student.forms",
+        "peekOfCode": "\t\tmodel = AddStudent\n\t\tfields = ['student_name','student_id','student_number','student_dob','student_address','student_image','student_gender']\n\t\twidgets = {\n\t\t\t 'student_name':forms.TextInput(attrs={'class':'form-control'}),\n\t\t\t 'student_id':forms.TextInput(attrs={'class':'form-control'}),\n\t\t\t 'student_number':forms.NumberInput(attrs={'class':'form-control'}),\n\t\t\t 'student_dob':forms.DateInput(attrs={'class':'form-control','type':'date'}),\n\t\t\t 'student_address':forms.Textarea(attrs={'class':'form-control','rows':4}),\n\t\t\t}\n\t\tlabels={",
+        "detail": "Student.forms",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tfields",
+        "kind": 5,
+        "importPath": "Student.forms",
+        "description": "Student.forms",
+        "peekOfCode": "\t\tfields = ['student_name','student_id','student_number','student_dob','student_address','student_image','student_gender']\n\t\twidgets = {\n\t\t\t 'student_name':forms.TextInput(attrs={'class':'form-control'}),\n\t\t\t 'student_id':forms.TextInput(attrs={'class':'form-control'}),\n\t\t\t 'student_number':forms.NumberInput(attrs={'class':'form-control'}),\n\t\t\t 'student_dob':forms.DateInput(attrs={'class':'form-control','type':'date'}),\n\t\t\t 'student_address':forms.Textarea(attrs={'class':'form-control','rows':4}),\n\t\t\t}\n\t\tlabels={\n\t\t\t'student_name':'Name',",
+        "detail": "Student.forms",
+        "documentation": {}
+    },
+    {
+        "label": "\t\twidgets",
+        "kind": 5,
+        "importPath": "Student.forms",
+        "description": "Student.forms",
+        "peekOfCode": "\t\twidgets = {\n\t\t\t 'student_name':forms.TextInput(attrs={'class':'form-control'}),\n\t\t\t 'student_id':forms.TextInput(attrs={'class':'form-control'}),\n\t\t\t 'student_number':forms.NumberInput(attrs={'class':'form-control'}),\n\t\t\t 'student_dob':forms.DateInput(attrs={'class':'form-control','type':'date'}),\n\t\t\t 'student_address':forms.Textarea(attrs={'class':'form-control','rows':4}),\n\t\t\t}\n\t\tlabels={\n\t\t\t'student_name':'Name',\n\t\t\t'student_id':'ID',",
+        "detail": "Student.forms",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tmodel",
+        "kind": 5,
+        "importPath": "Student.forms",
+        "description": "Student.forms",
+        "peekOfCode": "\t\tmodel = User \n\t\tfields = ['username','email']\n\t\twidgets = {'username':forms.TextInput(attrs={'class':'form-control'}),\n\t\t\t \t\t'email':forms.EmailInput(attrs={'class':'form-control'}),\n\t\t\t }\nLEAVE_TYPE_CHOICES = (\n    ('AN', 'Annual Leave'),\n    ('SL', 'Sick Leave'),\n    ('PL', 'Personal Leave'),\n)",
+        "detail": "Student.forms",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tfields",
+        "kind": 5,
+        "importPath": "Student.forms",
+        "description": "Student.forms",
+        "peekOfCode": "\t\tfields = ['username','email']\n\t\twidgets = {'username':forms.TextInput(attrs={'class':'form-control'}),\n\t\t\t \t\t'email':forms.EmailInput(attrs={'class':'form-control'}),\n\t\t\t }\nLEAVE_TYPE_CHOICES = (\n    ('AN', 'Annual Leave'),\n    ('SL', 'Sick Leave'),\n    ('PL', 'Personal Leave'),\n)\nLEAVE_STATUS_CHOICES = (",
+        "detail": "Student.forms",
+        "documentation": {}
+    },
+    {
+        "label": "\t\twidgets",
+        "kind": 5,
+        "importPath": "Student.forms",
+        "description": "Student.forms",
+        "peekOfCode": "\t\twidgets = {'username':forms.TextInput(attrs={'class':'form-control'}),\n\t\t\t \t\t'email':forms.EmailInput(attrs={'class':'form-control'}),\n\t\t\t }\nLEAVE_TYPE_CHOICES = (\n    ('AN', 'Annual Leave'),\n    ('SL', 'Sick Leave'),\n    ('PL', 'Personal Leave'),\n)\nLEAVE_STATUS_CHOICES = (\n    ('Pending', 'Pending'),",
+        "detail": "Student.forms",
+        "documentation": {}
+    },
+    {
+        "label": "LEAVE_TYPE_CHOICES",
+        "kind": 5,
+        "importPath": "Student.forms",
+        "description": "Student.forms",
+        "peekOfCode": "LEAVE_TYPE_CHOICES = (\n    ('AN', 'Annual Leave'),\n    ('SL', 'Sick Leave'),\n    ('PL', 'Personal Leave'),\n)\nLEAVE_STATUS_CHOICES = (\n    ('Pending', 'Pending'),\n    ('Approved', 'Approved'),\n    ('Rejected', 'Rejected'),\n)",
+        "detail": "Student.forms",
+        "documentation": {}
+    },
+    {
+        "label": "LEAVE_STATUS_CHOICES",
+        "kind": 5,
+        "importPath": "Student.forms",
+        "description": "Student.forms",
+        "peekOfCode": "LEAVE_STATUS_CHOICES = (\n    ('Pending', 'Pending'),\n    ('Approved', 'Approved'),\n    ('Rejected', 'Rejected'),\n)\n#Leave_PLANNER_FORM\nclass LeavePlannerForm(forms.ModelForm):\n    leave_type = forms.ChoiceField(choices=LEAVE_TYPE_CHOICES,widget=forms.RadioSelect())\n    # leave_status = forms.ChoiceField(choices=LEAVE_STATUS_CHOICES,widget=forms.RadioSelect())\n    class Meta:",
+        "detail": "Student.forms",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "Student.urls",
+        "description": "Student.urls",
+        "peekOfCode": "urlpatterns = [\n    path('dashboardstudent/', views.dashboard,name='dashboardstudent'),\n\tpath('studentattendance/',views.view_attendance,name='studentattendance'),\n\tpath('viewassignments/',views.view_assignments,name='viewassignments'),\n\tpath('viewannouncement/',views.view_announcements,name='viewannouncement'),\n\tpath('leave_planner/',views.leave_planner,name='leave_planner'),\n    path('editprofile/', views.edit_profile, name='editprofile'),\n    path('studpasswordchange/', views.PasswordChange, name='studpasswordchange'),\n]",
+        "detail": "Student.urls",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard",
+        "kind": 2,
+        "importPath": "Student.views",
+        "description": "Student.views",
+        "peekOfCode": "def dashboard(request):\n\tif request.user.is_authenticated:\n\t\tif not request.user.is_superuser:\n\t\t\tstud_data = AddStudent.objects.get(user=request.user)\n\t\t\tnaam = AddStudent.objects.get(student_name = stud_data)\n\t\t\tjan =Attendence.objects.annotate(month=ExtractMonth('date')).filter(Q(month=1) & Q(name = naam)).count()\n\t\t\tfeb =Attendence.objects.annotate(month=ExtractMonth('date')).filter(Q(month=2) & Q(name = naam)).count()\n\t\t\tmar =Attendence.objects.annotate(month=ExtractMonth('date')).filter(Q(month=3) & Q(name = naam)).count()\n\t\t\tapr =Attendence.objects.annotate(month=ExtractMonth('date')).filter(Q(month=4) & Q(name = naam)).count()\n\t\t\tmay =Attendence.objects.annotate(month=ExtractMonth('date')).filter(Q(month=5) & Q(name = naam)).count()",
+        "detail": "Student.views",
+        "documentation": {}
+    },
+    {
+        "label": "view_attendance",
+        "kind": 2,
+        "importPath": "Student.views",
+        "description": "Student.views",
+        "peekOfCode": "def view_attendance(request):\n\tif request.user.is_authenticated:\n\t\tif not request.user.is_superuser:\n\t\t\tstud_data = AddStudent.objects.get(user=request.user)\n\t\t\tuser_name = AddStudent.objects.get(user__username=request.user).student_name\n\t\t\tyear = request.POST.get('year')\n\t\t\tmonth = request.POST.get('month')\n\t\t\tattendance = Attendence.objects.filter(name=user_name, date__year=year, date__month=month)\n\t\t\tattendance_count_present = Attendence.objects.filter(name=user_name, date__year=year, date__month=month,status=\"Present\").count()\n\t\t\tattendance_count_absent = Attendence.objects.filter(name=user_name, date__year=year, date__month=month,status=\"Absent\").count()",
+        "detail": "Student.views",
+        "documentation": {}
+    },
+    {
+        "label": "view_assignments",
+        "kind": 2,
+        "importPath": "Student.views",
+        "description": "Student.views",
+        "peekOfCode": "def view_assignments(request):\n\tif request.user.is_authenticated:\n\t\tif not request.user.is_superuser:\n\t\t\tstud_data = AddStudent.objects.get(user=request.user)\n\t\t\tuser_batch = AddStudent.objects.get(user__username=request.user).student_batch\n\t\t\tass = Batch_message.objects.filter(batch=user_batch).order_by('-created_at')\n\t\t\tif len(ass)>0:\n\t\t\t\tfirst=ass = Batch_message.objects.filter(batch=user_batch).order_by('-created_at')[0]\n\t\t\t\tall=ass = Batch_message.objects.filter(batch=user_batch).order_by('-created_at')[1::]\n\t\t\telse:",
+        "detail": "Student.views",
+        "documentation": {}
+    },
+    {
+        "label": "view_announcements",
+        "kind": 2,
+        "importPath": "Student.views",
+        "description": "Student.views",
+        "peekOfCode": "def view_announcements(request):\n    if request.user.is_authenticated:\n        if not request.user.is_superuser:\n            stud_data = AddStudent.objects.get(user=request.user)\n            announcement = Announcement.objects.all().order_by('-created_at')\n            if len(announcement):\n                latest_announcement = Announcement.objects.all().order_by('-created_at')[0]\n                announcement = Announcement.objects.all().order_by('-created_at')[1:]\n            else:\n                latest_announcement = False",
+        "detail": "Student.views",
+        "documentation": {}
+    },
+    {
+        "label": "edit_profile",
+        "kind": 2,
+        "importPath": "Student.views",
+        "description": "Student.views",
+        "peekOfCode": "def edit_profile(request):\n\tif request.user.is_authenticated:\n\t\tif not request.user.is_superuser:\n\t\t\tstud_data = AddStudent.objects.get(user=request.user)\n\t\t\tif request.method == \"POST\":\n\t\t\t\tpi=AddStudent.objects.get(user=request.user)\n\t\t\t\tform1 = Edit_profile_form(request.POST,request.FILES,instance=pi)\n\t\t\t\tform2=Edit_username_form(request.POST, instance=request.user)\n\t\t\t\tif form1.is_valid() and form2.is_valid():\n\t\t\t\t\tform1.save()",
+        "detail": "Student.views",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordChange",
+        "kind": 2,
+        "importPath": "Student.views",
+        "description": "Student.views",
+        "peekOfCode": "def PasswordChange(request):\n    if request.user.is_authenticated:\n        if not request.user.is_superuser:\n            stud_data = AddStudent.objects.get(user=request.user)\n            if request.method == \"POST\":\n                form = PasswordChangingForm(request.user, request.POST)\n                if form.is_valid():\n                    user = form.save()\n                    update_session_auth_hash(request, user)  \n                    messages.success(request, 'Your password was successfully updated!')    ",
+        "detail": "Student.views",
+        "documentation": {}
+    },
+    {
+        "label": "leave_planner",
+        "kind": 2,
+        "importPath": "Student.views",
+        "description": "Student.views",
+        "peekOfCode": "def leave_planner(request):\n\tif request.user.is_authenticated:\n\t\tif not request.user.is_superuser:\n\t\t\tstud_data = AddStudent.objects.get(user=request.user)\n\t\t\tif request.method == \"POST\":\n\t\t\t\tform=LeavePlannerForm(request.POST)\n\t\t\t\tif form.is_valid():\n\t\t\t\t\tLeave_Application=form.save(commit=False)\n\t\t\t\t\tLeave_Application.student=AddStudent.objects.get(user=request.user)\n\t\t\t\t\tLeave_Application.student_name=Leave_Application.student",
+        "detail": "Student.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tstud_data",
+        "kind": 5,
+        "importPath": "Student.views",
+        "description": "Student.views",
+        "peekOfCode": "\t\t\tstud_data = AddStudent.objects.get(user=request.user)\n\t\t\tnaam = AddStudent.objects.get(student_name = stud_data)\n\t\t\tjan =Attendence.objects.annotate(month=ExtractMonth('date')).filter(Q(month=1) & Q(name = naam)).count()\n\t\t\tfeb =Attendence.objects.annotate(month=ExtractMonth('date')).filter(Q(month=2) & Q(name = naam)).count()\n\t\t\tmar =Attendence.objects.annotate(month=ExtractMonth('date')).filter(Q(month=3) & Q(name = naam)).count()\n\t\t\tapr =Attendence.objects.annotate(month=ExtractMonth('date')).filter(Q(month=4) & Q(name = naam)).count()\n\t\t\tmay =Attendence.objects.annotate(month=ExtractMonth('date')).filter(Q(month=5) & Q(name = naam)).count()\n\t\t\tjun =Attendence.objects.annotate(month=ExtractMonth('date')).filter(Q(month=6) & Q(name = naam)).count()\n\t\t\tjul =Attendence.objects.annotate(month=ExtractMonth('date')).filter(Q(month=7) & Q(name = naam)).count()\n\t\t\taug =Attendence.objects.annotate(month=ExtractMonth('date')).filter(Q(month=8) & Q(name = naam)).count()",
+        "detail": "Student.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tnaam",
+        "kind": 5,
+        "importPath": "Student.views",
+        "description": "Student.views",
+        "peekOfCode": "\t\t\tnaam = AddStudent.objects.get(student_name = stud_data)\n\t\t\tjan =Attendence.objects.annotate(month=ExtractMonth('date')).filter(Q(month=1) & Q(name = naam)).count()\n\t\t\tfeb =Attendence.objects.annotate(month=ExtractMonth('date')).filter(Q(month=2) & Q(name = naam)).count()\n\t\t\tmar =Attendence.objects.annotate(month=ExtractMonth('date')).filter(Q(month=3) & Q(name = naam)).count()\n\t\t\tapr =Attendence.objects.annotate(month=ExtractMonth('date')).filter(Q(month=4) & Q(name = naam)).count()\n\t\t\tmay =Attendence.objects.annotate(month=ExtractMonth('date')).filter(Q(month=5) & Q(name = naam)).count()\n\t\t\tjun =Attendence.objects.annotate(month=ExtractMonth('date')).filter(Q(month=6) & Q(name = naam)).count()\n\t\t\tjul =Attendence.objects.annotate(month=ExtractMonth('date')).filter(Q(month=7) & Q(name = naam)).count()\n\t\t\taug =Attendence.objects.annotate(month=ExtractMonth('date')).filter(Q(month=8) & Q(name = naam)).count()\n\t\t\tsep =Attendence.objects.annotate(month=ExtractMonth('date')).filter(Q(month=9) & Q(name = naam)).count()",
+        "detail": "Student.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tmonths",
+        "kind": 5,
+        "importPath": "Student.views",
+        "description": "Student.views",
+        "peekOfCode": "\t\t\tmonths = ['January', 'February', 'March', 'April', 'May', 'June','July','August','September','October','November','December']\n\t\t\tmonths_counts = [jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec]\n\t\t\tannouncement=Announcement.objects.all()\n\t\t\tuser_batch = AddStudent.objects.get(user__username=request.user).student_batch\n\t\t\tassignment = Batch_message.objects.filter(batch=user_batch).order_by('-created_at')[:2]\n\t\t\temail=User.objects.get(username=request.user)\n\t\t\tbatch=str(stud_data.student_batch).split('-')\n\t\t\treturn render(request,'Student/student_dashboard.html',{'name':request.user,'stud_data':stud_data,'announcement':announcement,'months':months,'months_counts':months_counts,'assignment':assignment,'email':email,'batch':batch[0]})\n\t\telse:\n\t\t\treturn redirect('login')",
+        "detail": "Student.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tmonths_counts",
+        "kind": 5,
+        "importPath": "Student.views",
+        "description": "Student.views",
+        "peekOfCode": "\t\t\tmonths_counts = [jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec]\n\t\t\tannouncement=Announcement.objects.all()\n\t\t\tuser_batch = AddStudent.objects.get(user__username=request.user).student_batch\n\t\t\tassignment = Batch_message.objects.filter(batch=user_batch).order_by('-created_at')[:2]\n\t\t\temail=User.objects.get(username=request.user)\n\t\t\tbatch=str(stud_data.student_batch).split('-')\n\t\t\treturn render(request,'Student/student_dashboard.html',{'name':request.user,'stud_data':stud_data,'announcement':announcement,'months':months,'months_counts':months_counts,'assignment':assignment,'email':email,'batch':batch[0]})\n\t\telse:\n\t\t\treturn redirect('login')\n\telse:",
+        "detail": "Student.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tuser_batch",
+        "kind": 5,
+        "importPath": "Student.views",
+        "description": "Student.views",
+        "peekOfCode": "\t\t\tuser_batch = AddStudent.objects.get(user__username=request.user).student_batch\n\t\t\tassignment = Batch_message.objects.filter(batch=user_batch).order_by('-created_at')[:2]\n\t\t\temail=User.objects.get(username=request.user)\n\t\t\tbatch=str(stud_data.student_batch).split('-')\n\t\t\treturn render(request,'Student/student_dashboard.html',{'name':request.user,'stud_data':stud_data,'announcement':announcement,'months':months,'months_counts':months_counts,'assignment':assignment,'email':email,'batch':batch[0]})\n\t\telse:\n\t\t\treturn redirect('login')\n\telse:\n\t\treturn redirect('login')\ndef view_attendance(request):",
+        "detail": "Student.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tassignment",
+        "kind": 5,
+        "importPath": "Student.views",
+        "description": "Student.views",
+        "peekOfCode": "\t\t\tassignment = Batch_message.objects.filter(batch=user_batch).order_by('-created_at')[:2]\n\t\t\temail=User.objects.get(username=request.user)\n\t\t\tbatch=str(stud_data.student_batch).split('-')\n\t\t\treturn render(request,'Student/student_dashboard.html',{'name':request.user,'stud_data':stud_data,'announcement':announcement,'months':months,'months_counts':months_counts,'assignment':assignment,'email':email,'batch':batch[0]})\n\t\telse:\n\t\t\treturn redirect('login')\n\telse:\n\t\treturn redirect('login')\ndef view_attendance(request):\n\tif request.user.is_authenticated:",
+        "detail": "Student.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tstud_data",
+        "kind": 5,
+        "importPath": "Student.views",
+        "description": "Student.views",
+        "peekOfCode": "\t\t\tstud_data = AddStudent.objects.get(user=request.user)\n\t\t\tuser_name = AddStudent.objects.get(user__username=request.user).student_name\n\t\t\tyear = request.POST.get('year')\n\t\t\tmonth = request.POST.get('month')\n\t\t\tattendance = Attendence.objects.filter(name=user_name, date__year=year, date__month=month)\n\t\t\tattendance_count_present = Attendence.objects.filter(name=user_name, date__year=year, date__month=month,status=\"Present\").count()\n\t\t\tattendance_count_absent = Attendence.objects.filter(name=user_name, date__year=year, date__month=month,status=\"Absent\").count()\n\t\t\treturn render(request,\"Student/student_view_attendance.html\",{'user_name':user_name,'attendance':attendance,'attendance_count_present':attendance_count_present,'attendance_count_absent':attendance_count_absent, 'name':request.user,'stud_data':stud_data})\n\t\telse:\n\t\t\treturn redirect('login')",
+        "detail": "Student.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tuser_name",
+        "kind": 5,
+        "importPath": "Student.views",
+        "description": "Student.views",
+        "peekOfCode": "\t\t\tuser_name = AddStudent.objects.get(user__username=request.user).student_name\n\t\t\tyear = request.POST.get('year')\n\t\t\tmonth = request.POST.get('month')\n\t\t\tattendance = Attendence.objects.filter(name=user_name, date__year=year, date__month=month)\n\t\t\tattendance_count_present = Attendence.objects.filter(name=user_name, date__year=year, date__month=month,status=\"Present\").count()\n\t\t\tattendance_count_absent = Attendence.objects.filter(name=user_name, date__year=year, date__month=month,status=\"Absent\").count()\n\t\t\treturn render(request,\"Student/student_view_attendance.html\",{'user_name':user_name,'attendance':attendance,'attendance_count_present':attendance_count_present,'attendance_count_absent':attendance_count_absent, 'name':request.user,'stud_data':stud_data})\n\t\telse:\n\t\t\treturn redirect('login')\n\telse:",
+        "detail": "Student.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tyear",
+        "kind": 5,
+        "importPath": "Student.views",
+        "description": "Student.views",
+        "peekOfCode": "\t\t\tyear = request.POST.get('year')\n\t\t\tmonth = request.POST.get('month')\n\t\t\tattendance = Attendence.objects.filter(name=user_name, date__year=year, date__month=month)\n\t\t\tattendance_count_present = Attendence.objects.filter(name=user_name, date__year=year, date__month=month,status=\"Present\").count()\n\t\t\tattendance_count_absent = Attendence.objects.filter(name=user_name, date__year=year, date__month=month,status=\"Absent\").count()\n\t\t\treturn render(request,\"Student/student_view_attendance.html\",{'user_name':user_name,'attendance':attendance,'attendance_count_present':attendance_count_present,'attendance_count_absent':attendance_count_absent, 'name':request.user,'stud_data':stud_data})\n\t\telse:\n\t\t\treturn redirect('login')\n\telse:\n\t\treturn redirect('login')",
+        "detail": "Student.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tmonth",
+        "kind": 5,
+        "importPath": "Student.views",
+        "description": "Student.views",
+        "peekOfCode": "\t\t\tmonth = request.POST.get('month')\n\t\t\tattendance = Attendence.objects.filter(name=user_name, date__year=year, date__month=month)\n\t\t\tattendance_count_present = Attendence.objects.filter(name=user_name, date__year=year, date__month=month,status=\"Present\").count()\n\t\t\tattendance_count_absent = Attendence.objects.filter(name=user_name, date__year=year, date__month=month,status=\"Absent\").count()\n\t\t\treturn render(request,\"Student/student_view_attendance.html\",{'user_name':user_name,'attendance':attendance,'attendance_count_present':attendance_count_present,'attendance_count_absent':attendance_count_absent, 'name':request.user,'stud_data':stud_data})\n\t\telse:\n\t\t\treturn redirect('login')\n\telse:\n\t\treturn redirect('login')\ndef view_assignments(request):",
+        "detail": "Student.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tattendance",
+        "kind": 5,
+        "importPath": "Student.views",
+        "description": "Student.views",
+        "peekOfCode": "\t\t\tattendance = Attendence.objects.filter(name=user_name, date__year=year, date__month=month)\n\t\t\tattendance_count_present = Attendence.objects.filter(name=user_name, date__year=year, date__month=month,status=\"Present\").count()\n\t\t\tattendance_count_absent = Attendence.objects.filter(name=user_name, date__year=year, date__month=month,status=\"Absent\").count()\n\t\t\treturn render(request,\"Student/student_view_attendance.html\",{'user_name':user_name,'attendance':attendance,'attendance_count_present':attendance_count_present,'attendance_count_absent':attendance_count_absent, 'name':request.user,'stud_data':stud_data})\n\t\telse:\n\t\t\treturn redirect('login')\n\telse:\n\t\treturn redirect('login')\ndef view_assignments(request):\n\tif request.user.is_authenticated:",
+        "detail": "Student.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tattendance_count_present",
+        "kind": 5,
+        "importPath": "Student.views",
+        "description": "Student.views",
+        "peekOfCode": "\t\t\tattendance_count_present = Attendence.objects.filter(name=user_name, date__year=year, date__month=month,status=\"Present\").count()\n\t\t\tattendance_count_absent = Attendence.objects.filter(name=user_name, date__year=year, date__month=month,status=\"Absent\").count()\n\t\t\treturn render(request,\"Student/student_view_attendance.html\",{'user_name':user_name,'attendance':attendance,'attendance_count_present':attendance_count_present,'attendance_count_absent':attendance_count_absent, 'name':request.user,'stud_data':stud_data})\n\t\telse:\n\t\t\treturn redirect('login')\n\telse:\n\t\treturn redirect('login')\ndef view_assignments(request):\n\tif request.user.is_authenticated:\n\t\tif not request.user.is_superuser:",
+        "detail": "Student.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tattendance_count_absent",
+        "kind": 5,
+        "importPath": "Student.views",
+        "description": "Student.views",
+        "peekOfCode": "\t\t\tattendance_count_absent = Attendence.objects.filter(name=user_name, date__year=year, date__month=month,status=\"Absent\").count()\n\t\t\treturn render(request,\"Student/student_view_attendance.html\",{'user_name':user_name,'attendance':attendance,'attendance_count_present':attendance_count_present,'attendance_count_absent':attendance_count_absent, 'name':request.user,'stud_data':stud_data})\n\t\telse:\n\t\t\treturn redirect('login')\n\telse:\n\t\treturn redirect('login')\ndef view_assignments(request):\n\tif request.user.is_authenticated:\n\t\tif not request.user.is_superuser:\n\t\t\tstud_data = AddStudent.objects.get(user=request.user)",
+        "detail": "Student.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tstud_data",
+        "kind": 5,
+        "importPath": "Student.views",
+        "description": "Student.views",
+        "peekOfCode": "\t\t\tstud_data = AddStudent.objects.get(user=request.user)\n\t\t\tuser_batch = AddStudent.objects.get(user__username=request.user).student_batch\n\t\t\tass = Batch_message.objects.filter(batch=user_batch).order_by('-created_at')\n\t\t\tif len(ass)>0:\n\t\t\t\tfirst=ass = Batch_message.objects.filter(batch=user_batch).order_by('-created_at')[0]\n\t\t\t\tall=ass = Batch_message.objects.filter(batch=user_batch).order_by('-created_at')[1::]\n\t\t\telse:\n\t\t\t\tfirst=False\n\t\t\t\tall=False\n\t\t\treturn render(request,\"Student/viewassignments.html\",{'userbatch':user_batch,'recent_assgn':first,'ass':all, 'name':request.user,'stud_data':stud_data})",
+        "detail": "Student.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tuser_batch",
+        "kind": 5,
+        "importPath": "Student.views",
+        "description": "Student.views",
+        "peekOfCode": "\t\t\tuser_batch = AddStudent.objects.get(user__username=request.user).student_batch\n\t\t\tass = Batch_message.objects.filter(batch=user_batch).order_by('-created_at')\n\t\t\tif len(ass)>0:\n\t\t\t\tfirst=ass = Batch_message.objects.filter(batch=user_batch).order_by('-created_at')[0]\n\t\t\t\tall=ass = Batch_message.objects.filter(batch=user_batch).order_by('-created_at')[1::]\n\t\t\telse:\n\t\t\t\tfirst=False\n\t\t\t\tall=False\n\t\t\treturn render(request,\"Student/viewassignments.html\",{'userbatch':user_batch,'recent_assgn':first,'ass':all, 'name':request.user,'stud_data':stud_data})\n\t\telse:",
+        "detail": "Student.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tass",
+        "kind": 5,
+        "importPath": "Student.views",
+        "description": "Student.views",
+        "peekOfCode": "\t\t\tass = Batch_message.objects.filter(batch=user_batch).order_by('-created_at')\n\t\t\tif len(ass)>0:\n\t\t\t\tfirst=ass = Batch_message.objects.filter(batch=user_batch).order_by('-created_at')[0]\n\t\t\t\tall=ass = Batch_message.objects.filter(batch=user_batch).order_by('-created_at')[1::]\n\t\t\telse:\n\t\t\t\tfirst=False\n\t\t\t\tall=False\n\t\t\treturn render(request,\"Student/viewassignments.html\",{'userbatch':user_batch,'recent_assgn':first,'ass':all, 'name':request.user,'stud_data':stud_data})\n\t\telse:\n\t\t\treturn redirect('login')",
+        "detail": "Student.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\t\tfirst=ass",
+        "kind": 5,
+        "importPath": "Student.views",
+        "description": "Student.views",
+        "peekOfCode": "\t\t\t\tfirst=ass = Batch_message.objects.filter(batch=user_batch).order_by('-created_at')[0]\n\t\t\t\tall=ass = Batch_message.objects.filter(batch=user_batch).order_by('-created_at')[1::]\n\t\t\telse:\n\t\t\t\tfirst=False\n\t\t\t\tall=False\n\t\t\treturn render(request,\"Student/viewassignments.html\",{'userbatch':user_batch,'recent_assgn':first,'ass':all, 'name':request.user,'stud_data':stud_data})\n\t\telse:\n\t\t\treturn redirect('login')\n\telse:\n\t\treturn redirect('login')",
+        "detail": "Student.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\t\tall=ass",
+        "kind": 5,
+        "importPath": "Student.views",
+        "description": "Student.views",
+        "peekOfCode": "\t\t\t\tall=ass = Batch_message.objects.filter(batch=user_batch).order_by('-created_at')[1::]\n\t\t\telse:\n\t\t\t\tfirst=False\n\t\t\t\tall=False\n\t\t\treturn render(request,\"Student/viewassignments.html\",{'userbatch':user_batch,'recent_assgn':first,'ass':all, 'name':request.user,'stud_data':stud_data})\n\t\telse:\n\t\t\treturn redirect('login')\n\telse:\n\t\treturn redirect('login')\ndef view_announcements(request):",
+        "detail": "Student.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tstud_data",
+        "kind": 5,
+        "importPath": "Student.views",
+        "description": "Student.views",
+        "peekOfCode": "\t\t\tstud_data = AddStudent.objects.get(user=request.user)\n\t\t\tif request.method == \"POST\":\n\t\t\t\tpi=AddStudent.objects.get(user=request.user)\n\t\t\t\tform1 = Edit_profile_form(request.POST,request.FILES,instance=pi)\n\t\t\t\tform2=Edit_username_form(request.POST, instance=request.user)\n\t\t\t\tif form1.is_valid() and form2.is_valid():\n\t\t\t\t\tform1.save()\n\t\t\t\t\tform2.save()\n\t\t\t\t\tmessages.success(request,\"Profile Update Successfully\")\n\t\t\t\t\treturn redirect('editprofile')",
+        "detail": "Student.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\t\tform1",
+        "kind": 5,
+        "importPath": "Student.views",
+        "description": "Student.views",
+        "peekOfCode": "\t\t\t\tform1 = Edit_profile_form(request.POST,request.FILES,instance=pi)\n\t\t\t\tform2=Edit_username_form(request.POST, instance=request.user)\n\t\t\t\tif form1.is_valid() and form2.is_valid():\n\t\t\t\t\tform1.save()\n\t\t\t\t\tform2.save()\n\t\t\t\t\tmessages.success(request,\"Profile Update Successfully\")\n\t\t\t\t\treturn redirect('editprofile')\n\t\t\telse:\n\t\t\t\tpi=AddStudent.objects.get(user=request.user)\n\t\t\t\tform1 = Edit_profile_form(instance=pi)",
+        "detail": "Student.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\t\tform1",
+        "kind": 5,
+        "importPath": "Student.views",
+        "description": "Student.views",
+        "peekOfCode": "\t\t\t\tform1 = Edit_profile_form(instance=pi)\n\t\t\t\tform2=Edit_username_form(instance=request.user)\n\t\t\treturn render(request,'Student/edit_profile.html',{'fm':form1,'fm1':form2, 'name':request.user,'stud_data':stud_data})\n\t\telse:\n\t\t\t# messages.error(\"Please Login\")\n\t\t\treturn redirect('login')\n\telse:\n\t\treturn redirect('login')\n# Student change password\ndef PasswordChange(request):",
+        "detail": "Student.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tstud_data",
+        "kind": 5,
+        "importPath": "Student.views",
+        "description": "Student.views",
+        "peekOfCode": "\t\t\tstud_data = AddStudent.objects.get(user=request.user)\n\t\t\tif request.method == \"POST\":\n\t\t\t\tform=LeavePlannerForm(request.POST)\n\t\t\t\tif form.is_valid():\n\t\t\t\t\tLeave_Application=form.save(commit=False)\n\t\t\t\t\tLeave_Application.student=AddStudent.objects.get(user=request.user)\n\t\t\t\t\tLeave_Application.student_name=Leave_Application.student\n\t\t\t\t\tLeave_Application.save()\n\t\t\t\t\tmessages.success(request,\"Your Leave Application Submitted Successfully\")\n\t\t\t\t\tform=LeavePlannerForm()",
+        "detail": "Student.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "Teacher.migrations.0001_initial",
+        "description": "Teacher.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='AddBatch',\n            fields=[",
+        "detail": "Teacher.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "AddSubjectAdmin",
+        "kind": 6,
+        "importPath": "Teacher.admin",
+        "description": "Teacher.admin",
+        "peekOfCode": "class AddSubjectAdmin(admin.ModelAdmin):\n\tlist_display = ['subject_id','subject_name']\n@admin.register(AddBatch)\nclass AddBatchAdmin(admin.ModelAdmin):\n\tlist_display = ['batch_id','batch_name','batch_faculty' ,'batch_startdate','batch_starttime','batch_endtime','get_subjects']\n@admin.register(AddStudent)\nclass AddStudentAdmin(admin.ModelAdmin):\n\tlist_display = ['student_id','student_batch','student_name','student_number','student_address','student_dob','student_image']\n@admin.register(Attendence)\nclass AttendenceAdmin(admin.ModelAdmin):",
+        "detail": "Teacher.admin",
+        "documentation": {}
+    },
+    {
+        "label": "AddBatchAdmin",
+        "kind": 6,
+        "importPath": "Teacher.admin",
+        "description": "Teacher.admin",
+        "peekOfCode": "class AddBatchAdmin(admin.ModelAdmin):\n\tlist_display = ['batch_id','batch_name','batch_faculty' ,'batch_startdate','batch_starttime','batch_endtime','get_subjects']\n@admin.register(AddStudent)\nclass AddStudentAdmin(admin.ModelAdmin):\n\tlist_display = ['student_id','student_batch','student_name','student_number','student_address','student_dob','student_image']\n@admin.register(Attendence)\nclass AttendenceAdmin(admin.ModelAdmin):\n\tlist_display = ['name','I','date','status','subject']\n@admin.register(Batch_message)\nclass Batch_messageAdmin(admin.ModelAdmin):",
+        "detail": "Teacher.admin",
+        "documentation": {}
+    },
+    {
+        "label": "AddStudentAdmin",
+        "kind": 6,
+        "importPath": "Teacher.admin",
+        "description": "Teacher.admin",
+        "peekOfCode": "class AddStudentAdmin(admin.ModelAdmin):\n\tlist_display = ['student_id','student_batch','student_name','student_number','student_address','student_dob','student_image']\n@admin.register(Attendence)\nclass AttendenceAdmin(admin.ModelAdmin):\n\tlist_display = ['name','I','date','status','subject']\n@admin.register(Batch_message)\nclass Batch_messageAdmin(admin.ModelAdmin):\n\tlist_display = ['batch','file','message','created_at']\n@admin.register(Announcement)\nclass AnnouncementAdmin(admin.ModelAdmin):",
+        "detail": "Teacher.admin",
+        "documentation": {}
+    },
+    {
+        "label": "AttendenceAdmin",
+        "kind": 6,
+        "importPath": "Teacher.admin",
+        "description": "Teacher.admin",
+        "peekOfCode": "class AttendenceAdmin(admin.ModelAdmin):\n\tlist_display = ['name','I','date','status','subject']\n@admin.register(Batch_message)\nclass Batch_messageAdmin(admin.ModelAdmin):\n\tlist_display = ['batch','file','message','created_at']\n@admin.register(Announcement)\nclass AnnouncementAdmin(admin.ModelAdmin):\n\tlist_display = ['announcement_image','announcement','created_at']\n@admin.register(Task)\nclass TaskAdmin(admin.ModelAdmin):",
+        "detail": "Teacher.admin",
+        "documentation": {}
+    },
+    {
+        "label": "Batch_messageAdmin",
+        "kind": 6,
+        "importPath": "Teacher.admin",
+        "description": "Teacher.admin",
+        "peekOfCode": "class Batch_messageAdmin(admin.ModelAdmin):\n\tlist_display = ['batch','file','message','created_at']\n@admin.register(Announcement)\nclass AnnouncementAdmin(admin.ModelAdmin):\n\tlist_display = ['announcement_image','announcement','created_at']\n@admin.register(Task)\nclass TaskAdmin(admin.ModelAdmin):\n\tlist_display = ['date','starttime','endtime','task_status']\nadmin.site.register(Profile)",
+        "detail": "Teacher.admin",
+        "documentation": {}
+    },
+    {
+        "label": "AnnouncementAdmin",
+        "kind": 6,
+        "importPath": "Teacher.admin",
+        "description": "Teacher.admin",
+        "peekOfCode": "class AnnouncementAdmin(admin.ModelAdmin):\n\tlist_display = ['announcement_image','announcement','created_at']\n@admin.register(Task)\nclass TaskAdmin(admin.ModelAdmin):\n\tlist_display = ['date','starttime','endtime','task_status']\nadmin.site.register(Profile)",
+        "detail": "Teacher.admin",
+        "documentation": {}
+    },
+    {
+        "label": "TaskAdmin",
+        "kind": 6,
+        "importPath": "Teacher.admin",
+        "description": "Teacher.admin",
+        "peekOfCode": "class TaskAdmin(admin.ModelAdmin):\n\tlist_display = ['date','starttime','endtime','task_status']\nadmin.site.register(Profile)",
+        "detail": "Teacher.admin",
+        "documentation": {}
+    },
+    {
+        "label": "\tlist_display",
+        "kind": 5,
+        "importPath": "Teacher.admin",
+        "description": "Teacher.admin",
+        "peekOfCode": "\tlist_display = ['subject_id','subject_name']\n@admin.register(AddBatch)\nclass AddBatchAdmin(admin.ModelAdmin):\n\tlist_display = ['batch_id','batch_name','batch_faculty' ,'batch_startdate','batch_starttime','batch_endtime','get_subjects']\n@admin.register(AddStudent)\nclass AddStudentAdmin(admin.ModelAdmin):\n\tlist_display = ['student_id','student_batch','student_name','student_number','student_address','student_dob','student_image']\n@admin.register(Attendence)\nclass AttendenceAdmin(admin.ModelAdmin):\n\tlist_display = ['name','I','date','status','subject']",
+        "detail": "Teacher.admin",
+        "documentation": {}
+    },
+    {
+        "label": "\tlist_display",
+        "kind": 5,
+        "importPath": "Teacher.admin",
+        "description": "Teacher.admin",
+        "peekOfCode": "\tlist_display = ['batch_id','batch_name','batch_faculty' ,'batch_startdate','batch_starttime','batch_endtime','get_subjects']\n@admin.register(AddStudent)\nclass AddStudentAdmin(admin.ModelAdmin):\n\tlist_display = ['student_id','student_batch','student_name','student_number','student_address','student_dob','student_image']\n@admin.register(Attendence)\nclass AttendenceAdmin(admin.ModelAdmin):\n\tlist_display = ['name','I','date','status','subject']\n@admin.register(Batch_message)\nclass Batch_messageAdmin(admin.ModelAdmin):\n\tlist_display = ['batch','file','message','created_at']",
+        "detail": "Teacher.admin",
+        "documentation": {}
+    },
+    {
+        "label": "\tlist_display",
+        "kind": 5,
+        "importPath": "Teacher.admin",
+        "description": "Teacher.admin",
+        "peekOfCode": "\tlist_display = ['student_id','student_batch','student_name','student_number','student_address','student_dob','student_image']\n@admin.register(Attendence)\nclass AttendenceAdmin(admin.ModelAdmin):\n\tlist_display = ['name','I','date','status','subject']\n@admin.register(Batch_message)\nclass Batch_messageAdmin(admin.ModelAdmin):\n\tlist_display = ['batch','file','message','created_at']\n@admin.register(Announcement)\nclass AnnouncementAdmin(admin.ModelAdmin):\n\tlist_display = ['announcement_image','announcement','created_at']",
+        "detail": "Teacher.admin",
+        "documentation": {}
+    },
+    {
+        "label": "\tlist_display",
+        "kind": 5,
+        "importPath": "Teacher.admin",
+        "description": "Teacher.admin",
+        "peekOfCode": "\tlist_display = ['name','I','date','status','subject']\n@admin.register(Batch_message)\nclass Batch_messageAdmin(admin.ModelAdmin):\n\tlist_display = ['batch','file','message','created_at']\n@admin.register(Announcement)\nclass AnnouncementAdmin(admin.ModelAdmin):\n\tlist_display = ['announcement_image','announcement','created_at']\n@admin.register(Task)\nclass TaskAdmin(admin.ModelAdmin):\n\tlist_display = ['date','starttime','endtime','task_status']",
+        "detail": "Teacher.admin",
+        "documentation": {}
+    },
+    {
+        "label": "\tlist_display",
+        "kind": 5,
+        "importPath": "Teacher.admin",
+        "description": "Teacher.admin",
+        "peekOfCode": "\tlist_display = ['batch','file','message','created_at']\n@admin.register(Announcement)\nclass AnnouncementAdmin(admin.ModelAdmin):\n\tlist_display = ['announcement_image','announcement','created_at']\n@admin.register(Task)\nclass TaskAdmin(admin.ModelAdmin):\n\tlist_display = ['date','starttime','endtime','task_status']\nadmin.site.register(Profile)",
+        "detail": "Teacher.admin",
+        "documentation": {}
+    },
+    {
+        "label": "\tlist_display",
+        "kind": 5,
+        "importPath": "Teacher.admin",
+        "description": "Teacher.admin",
+        "peekOfCode": "\tlist_display = ['announcement_image','announcement','created_at']\n@admin.register(Task)\nclass TaskAdmin(admin.ModelAdmin):\n\tlist_display = ['date','starttime','endtime','task_status']\nadmin.site.register(Profile)",
+        "detail": "Teacher.admin",
+        "documentation": {}
+    },
+    {
+        "label": "\tlist_display",
+        "kind": 5,
+        "importPath": "Teacher.admin",
+        "description": "Teacher.admin",
+        "peekOfCode": "\tlist_display = ['date','starttime','endtime','task_status']\nadmin.site.register(Profile)",
+        "detail": "Teacher.admin",
+        "documentation": {}
+    },
+    {
+        "label": "TeacherConfig",
+        "kind": 6,
+        "importPath": "Teacher.apps",
+        "description": "Teacher.apps",
+        "peekOfCode": "class TeacherConfig(AppConfig):\n    name = 'Teacher'",
+        "detail": "Teacher.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AddSubjectForm",
+        "kind": 6,
+        "importPath": "Teacher.forms",
+        "description": "Teacher.forms",
+        "peekOfCode": "class AddSubjectForm(forms.ModelForm):\n    class Meta:\n        model = AddSubject\n        fields = ['subject_name']\n        widgets = {'subject_name':forms.TextInput(attrs={'autofocus':True , 'class': 'form-control'})}\n#This is Add Batch form\nclass AddBatchForm(forms.ModelForm):\n    batch_subjects = forms.ModelMultipleChoiceField(\n        queryset=AddSubject.objects.all(),\n        widget=forms.CheckboxSelectMultiple",
+        "detail": "Teacher.forms",
+        "documentation": {}
+    },
+    {
+        "label": "AddBatchForm",
+        "kind": 6,
+        "importPath": "Teacher.forms",
+        "description": "Teacher.forms",
+        "peekOfCode": "class AddBatchForm(forms.ModelForm):\n    batch_subjects = forms.ModelMultipleChoiceField(\n        queryset=AddSubject.objects.all(),\n        widget=forms.CheckboxSelectMultiple\n    )\n    class Meta:\n        model = AddBatch\n        fields = ['batch_name','batch_faculty' ,'batch_startdate','batch_starttime','batch_endtime','batch_subjects']\n        widgets = {'batch_name':forms.TextInput(attrs={'class':'form-control'}),\n             'batch_faculty':forms.TextInput(attrs={'class':'form-control','rows':4}),",
+        "detail": "Teacher.forms",
+        "documentation": {}
+    },
+    {
+        "label": "StudentCreationForm",
+        "kind": 6,
+        "importPath": "Teacher.forms",
+        "description": "Teacher.forms",
+        "peekOfCode": "class StudentCreationForm(UserCreationForm):\n    password1 = forms.CharField(label='Password',widget=forms.PasswordInput(attrs={'class':'form-control','value':'Aptech@123'}))\n    password2 = forms.CharField(label='Confirm Password',widget=forms.PasswordInput(attrs={'class':'form-control','value':'Aptech@123'}))\n    email = forms.EmailField(required=True, help_text='Required. Inform a valid email address.', widget=forms.EmailInput(attrs={'class':'form-control'}))\n    class Meta:\n        model = User\n        fields = ['username','email','password1','password2']\n        labels = {'password1':'pass'}\n        widgets = {'username':forms.TextInput(attrs={'class':'form-control'})}  \n    def __init__(self, *args, **kwargs):",
+        "detail": "Teacher.forms",
+        "documentation": {}
+    },
+    {
+        "label": "StudentDataForm",
+        "kind": 6,
+        "importPath": "Teacher.forms",
+        "description": "Teacher.forms",
+        "peekOfCode": "class StudentDataForm(forms.ModelForm):\n    student_gender = forms.ChoiceField(choices=GENDER_CHOICES,widget=forms.RadioSelect())\n    student_status = forms.ChoiceField(choices=STUDENT_STATUS_CHOICES,widget=forms.RadioSelect())\n    class Meta:\n        model = AddStudent\n        fields = ['student_id','student_batch','student_name','student_number','student_gender','student_status','student_dob','student_image','student_address']\n        widgets = {'student_batch':forms.Select(attrs={'class':'form-control'}),\n             'student_address':forms.Textarea(attrs={'class':'form-control','rows':4,'cols':10}),\n             'student_dob':forms.DateInput(attrs={'class':'form-control','type':'date'}),\n             'student_number':forms.NumberInput(attrs={'class':'form-control'}),",
+        "detail": "Teacher.forms",
+        "documentation": {}
+    },
+    {
+        "label": "LoginForm",
+        "kind": 6,
+        "importPath": "Teacher.forms",
+        "description": "Teacher.forms",
+        "peekOfCode": "class LoginForm(AuthenticationForm):\n    username=UsernameField(widget=forms.TextInput(attrs={'autofocus':True , 'class': 'form-control','placeholder':'Username'}))\n    password=forms.CharField(label='password',strip=False, widget=forms.PasswordInput(attrs={'autocomplete':'current-password' , 'class': 'form-control mt-3','placeholder':'Password'}))\n# This is Batch message form\nclass Batch_message_form(forms.ModelForm):\n    class Meta:\n        model = Batch_message\n        fields = ['batch','message','file']\n        widgets = {'batch':forms.Select(attrs={'class':'form-control'}),\n             'message':forms.Textarea(attrs={'class':'form-control','rows':4})}",
+        "detail": "Teacher.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Batch_message_form",
+        "kind": 6,
+        "importPath": "Teacher.forms",
+        "description": "Teacher.forms",
+        "peekOfCode": "class Batch_message_form(forms.ModelForm):\n    class Meta:\n        model = Batch_message\n        fields = ['batch','message','file']\n        widgets = {'batch':forms.Select(attrs={'class':'form-control'}),\n             'message':forms.Textarea(attrs={'class':'form-control','rows':4})}\nclass Announcement_form(forms.ModelForm):\n    class Meta:\n        model = Announcement\n        fields = ['announcement_image','announcement']",
+        "detail": "Teacher.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Announcement_form",
+        "kind": 6,
+        "importPath": "Teacher.forms",
+        "description": "Teacher.forms",
+        "peekOfCode": "class Announcement_form(forms.ModelForm):\n    class Meta:\n        model = Announcement\n        fields = ['announcement_image','announcement']\n        widgets = {'announcement':forms.Textarea(attrs={'class':'form-control'})}\nclass edit_profile_user_form(UserChangeForm):\n    class Meta:\n        model = User\n        fields = ['username','first_name','last_name','email']\n        widgets = {",
+        "detail": "Teacher.forms",
+        "documentation": {}
+    },
+    {
+        "label": "edit_profile_user_form",
+        "kind": 6,
+        "importPath": "Teacher.forms",
+        "description": "Teacher.forms",
+        "peekOfCode": "class edit_profile_user_form(UserChangeForm):\n    class Meta:\n        model = User\n        fields = ['username','first_name','last_name','email']\n        widgets = {\n             'first_name':forms.TextInput(attrs={'class':'form-control','rows':4,'cols':10}),\n             'last_name':forms.TextInput(attrs={'class':'form-control'}),\n             'email':forms.EmailInput(attrs={'class':'form-control'}),\n             'username':forms.TextInput(attrs={'class':'form-control'}),\n             }",
+        "detail": "Teacher.forms",
+        "documentation": {}
+    },
+    {
+        "label": "edit_profile_addstudent_form",
+        "kind": 6,
+        "importPath": "Teacher.forms",
+        "description": "Teacher.forms",
+        "peekOfCode": "class edit_profile_addstudent_form(forms.ModelForm):\n    student_gender = forms.ChoiceField(choices=GENDER_CHOICES,widget=forms.RadioSelect())\n    student_status = forms.ChoiceField(choices=STUDENT_STATUS_CHOICES,widget=forms.RadioSelect())\n    class Meta:\n        model = AddStudent\n        fields = ['student_id','student_batch','student_name','student_number','student_gender','student_status','student_dob','student_image','student_address']\n        widgets = {'student_batch':forms.Select(attrs={'class':'form-control'}),\n             'student_address':forms.Textarea(attrs={'class':'form-control','rows':4,'cols':10}),\n             'student_dob':forms.DateInput(attrs={'class':'form-control','type':'date'}),\n             'student_number':forms.NumberInput(attrs={'class':'form-control'}),",
+        "detail": "Teacher.forms",
+        "documentation": {}
+    },
+    {
+        "label": "LeaveApplicationForm",
+        "kind": 6,
+        "importPath": "Teacher.forms",
+        "description": "Teacher.forms",
+        "peekOfCode": "class LeaveApplicationForm(forms.ModelForm):\n    leave_type = forms.ChoiceField(choices=LEAVE_TYPE_CHOICES,widget=forms.RadioSelect())\n    leave_status = forms.ChoiceField(choices=LEAVE_STATUS_CHOICES,widget=forms.RadioSelect())\n    class Meta:\n        model = LeavePlannerModel\n        fields = ['leave_type','leave_startdate','leave_enddate','leave_reason','leave_status']\n        widgets = {\n            'leave_startdate': forms.DateInput(attrs={'class': 'form-control', 'type': 'date'}),\n            'leave_enddate': forms.DateInput(attrs={'class': 'form-control', 'type': 'date'}),\n            'leave_reason': forms.Textarea(attrs={'class': 'form-control', 'rows': 3}),",
+        "detail": "Teacher.forms",
+        "documentation": {}
+    },
+    {
+        "label": "TaskForm",
+        "kind": 6,
+        "importPath": "Teacher.forms",
+        "description": "Teacher.forms",
+        "peekOfCode": "class TaskForm(forms.ModelForm):\n    # task_status = forms.ChoiceField(widget=forms.Select(attrs={'class': 'form-control'}))\n    class Meta:\n        model = Task\n        fields = ['date', 'description','starttime','endtime','task_status']\n        widgets = {\n            'date': forms.DateInput(attrs={'type': 'date','class': 'form-control',}),\n            'description':forms.Textarea(attrs={'class': 'form-control',}),\n            'starttime': forms.TimeInput(attrs={'type': 'time','class': 'form-control',}),\n            'endtime': forms.TimeInput(attrs={'type': 'time','class': 'form-control',}),",
+        "detail": "Teacher.forms",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordChangingForm",
+        "kind": 6,
+        "importPath": "Teacher.forms",
+        "description": "Teacher.forms",
+        "peekOfCode": "class PasswordChangingForm(PasswordChangeForm):\n    old_password = forms.CharField(widget=forms.PasswordInput(attrs={'class': 'form-control',}))\n    new_password1 = forms.CharField(widget=forms.PasswordInput(attrs={'class': 'form-control',}))\n    new_password2 = forms.CharField(widget=forms.PasswordInput(attrs={'class': 'form-control',}))\n    class Meta:\n        models = User\n        fields = ['old_password', 'new_password1', 'new_password2']",
+        "detail": "Teacher.forms",
+        "documentation": {}
+    },
+    {
+        "label": "GENDER_CHOICES",
+        "kind": 5,
+        "importPath": "Teacher.forms",
+        "description": "Teacher.forms",
+        "peekOfCode": "GENDER_CHOICES = [\n    ('Male','Male'),\n    ('Female','Female'),\n    ('Other','Other'),\n]\nSTUDENT_STATUS_CHOICES = (\n    ('Active','Active'),\n    ('Completed','Completed'),\n    ('Drop_out','Drop_out'),\n)",
+        "detail": "Teacher.forms",
+        "documentation": {}
+    },
+    {
+        "label": "STUDENT_STATUS_CHOICES",
+        "kind": 5,
+        "importPath": "Teacher.forms",
+        "description": "Teacher.forms",
+        "peekOfCode": "STUDENT_STATUS_CHOICES = (\n    ('Active','Active'),\n    ('Completed','Completed'),\n    ('Drop_out','Drop_out'),\n)\nclass StudentDataForm(forms.ModelForm):\n    student_gender = forms.ChoiceField(choices=GENDER_CHOICES,widget=forms.RadioSelect())\n    student_status = forms.ChoiceField(choices=STUDENT_STATUS_CHOICES,widget=forms.RadioSelect())\n    class Meta:\n        model = AddStudent",
+        "detail": "Teacher.forms",
+        "documentation": {}
+    },
+    {
+        "label": "GENDER_CHOICES",
+        "kind": 5,
+        "importPath": "Teacher.forms",
+        "description": "Teacher.forms",
+        "peekOfCode": "GENDER_CHOICES = [\n    ('Male','Male'),\n    ('Female','Female'),\n    ('Other','Other'),\n]\nSTUDENT_STATUS_CHOICES = (\n    ('Active','Active'),\n    ('Completed','Completed'),\n    ('Drop_out','Drop_out'),\n)",
+        "detail": "Teacher.forms",
+        "documentation": {}
+    },
+    {
+        "label": "STUDENT_STATUS_CHOICES",
+        "kind": 5,
+        "importPath": "Teacher.forms",
+        "description": "Teacher.forms",
+        "peekOfCode": "STUDENT_STATUS_CHOICES = (\n    ('Active','Active'),\n    ('Completed','Completed'),\n    ('Drop_out','Drop_out'),\n)\nclass edit_profile_addstudent_form(forms.ModelForm):\n    student_gender = forms.ChoiceField(choices=GENDER_CHOICES,widget=forms.RadioSelect())\n    student_status = forms.ChoiceField(choices=STUDENT_STATUS_CHOICES,widget=forms.RadioSelect())\n    class Meta:\n        model = AddStudent",
+        "detail": "Teacher.forms",
+        "documentation": {}
+    },
+    {
+        "label": "LEAVE_TYPE_CHOICES",
+        "kind": 5,
+        "importPath": "Teacher.forms",
+        "description": "Teacher.forms",
+        "peekOfCode": "LEAVE_TYPE_CHOICES = (\n    ('AN', 'Annual Leave'),\n    ('SL', 'Sick Leave'),\n    ('PL', 'Personal Leave'),\n)\nLEAVE_STATUS_CHOICES = (\n    ('Pending', 'Pending'),\n    ('Approved', 'Approved'),\n    ('Rejected', 'Rejected'),\n)",
+        "detail": "Teacher.forms",
+        "documentation": {}
+    },
+    {
+        "label": "LEAVE_STATUS_CHOICES",
+        "kind": 5,
+        "importPath": "Teacher.forms",
+        "description": "Teacher.forms",
+        "peekOfCode": "LEAVE_STATUS_CHOICES = (\n    ('Pending', 'Pending'),\n    ('Approved', 'Approved'),\n    ('Rejected', 'Rejected'),\n)\nclass LeaveApplicationForm(forms.ModelForm):\n    leave_type = forms.ChoiceField(choices=LEAVE_TYPE_CHOICES,widget=forms.RadioSelect())\n    leave_status = forms.ChoiceField(choices=LEAVE_STATUS_CHOICES,widget=forms.RadioSelect())\n    class Meta:\n        model = LeavePlannerModel",
+        "detail": "Teacher.forms",
+        "documentation": {}
+    },
+    {
+        "label": "send_forget_password_mail",
+        "kind": 2,
+        "importPath": "Teacher.helpers",
+        "description": "Teacher.helpers",
+        "peekOfCode": "def send_forget_password_mail(email, token):\n\tsubject = 'Your Forget Password Link'\n\tmessage = f'Hi Click On The link to reset your password http://{settings.DOMAIN}/teacher/forgetchangepassword/{token}/'\n\temail_from =  settings.EMAIL_HOST_USER\n\trecipient_list = [email]\n\tsend_mail(subject,message,email_from,recipient_list,fail_silently=False,)\n\treturn True\ndef send_mail_user(email,student_login_name):\n\tsubject = 'Class Tracker Login Link'\n\tmessage = f'Welcome, {student_login_name} 🎉 \\n Your registration was successful,and we are thrilled to welcome you to Class Tracker \\n Username: {student_login_name}\\n Password: Aptech@123 \\n click here to log in http://{settings.DOMAIN}/ '",
+        "detail": "Teacher.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail_user",
+        "kind": 2,
+        "importPath": "Teacher.helpers",
+        "description": "Teacher.helpers",
+        "peekOfCode": "def send_mail_user(email,student_login_name):\n\tsubject = 'Class Tracker Login Link'\n\tmessage = f'Welcome, {student_login_name} 🎉 \\n Your registration was successful,and we are thrilled to welcome you to Class Tracker \\n Username: {student_login_name}\\n Password: Aptech@123 \\n click here to log in http://{settings.DOMAIN}/ '\n\temail_from =  settings.EMAIL_HOST_USER\n\trecipient_list = [email]\n\tsend_mail(subject,message,email_from,recipient_list,fail_silently=False,)\n\treturn True",
+        "detail": "Teacher.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "\tsubject",
+        "kind": 5,
+        "importPath": "Teacher.helpers",
+        "description": "Teacher.helpers",
+        "peekOfCode": "\tsubject = 'Your Forget Password Link'\n\tmessage = f'Hi Click On The link to reset your password http://{settings.DOMAIN}/teacher/forgetchangepassword/{token}/'\n\temail_from =  settings.EMAIL_HOST_USER\n\trecipient_list = [email]\n\tsend_mail(subject,message,email_from,recipient_list,fail_silently=False,)\n\treturn True\ndef send_mail_user(email,student_login_name):\n\tsubject = 'Class Tracker Login Link'\n\tmessage = f'Welcome, {student_login_name} 🎉 \\n Your registration was successful,and we are thrilled to welcome you to Class Tracker \\n Username: {student_login_name}\\n Password: Aptech@123 \\n click here to log in http://{settings.DOMAIN}/ '\n\temail_from =  settings.EMAIL_HOST_USER",
+        "detail": "Teacher.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "\tmessage",
+        "kind": 5,
+        "importPath": "Teacher.helpers",
+        "description": "Teacher.helpers",
+        "peekOfCode": "\tmessage = f'Hi Click On The link to reset your password http://{settings.DOMAIN}/teacher/forgetchangepassword/{token}/'\n\temail_from =  settings.EMAIL_HOST_USER\n\trecipient_list = [email]\n\tsend_mail(subject,message,email_from,recipient_list,fail_silently=False,)\n\treturn True\ndef send_mail_user(email,student_login_name):\n\tsubject = 'Class Tracker Login Link'\n\tmessage = f'Welcome, {student_login_name} 🎉 \\n Your registration was successful,and we are thrilled to welcome you to Class Tracker \\n Username: {student_login_name}\\n Password: Aptech@123 \\n click here to log in http://{settings.DOMAIN}/ '\n\temail_from =  settings.EMAIL_HOST_USER\n\trecipient_list = [email]",
+        "detail": "Teacher.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "\temail_from",
+        "kind": 5,
+        "importPath": "Teacher.helpers",
+        "description": "Teacher.helpers",
+        "peekOfCode": "\temail_from =  settings.EMAIL_HOST_USER\n\trecipient_list = [email]\n\tsend_mail(subject,message,email_from,recipient_list,fail_silently=False,)\n\treturn True\ndef send_mail_user(email,student_login_name):\n\tsubject = 'Class Tracker Login Link'\n\tmessage = f'Welcome, {student_login_name} 🎉 \\n Your registration was successful,and we are thrilled to welcome you to Class Tracker \\n Username: {student_login_name}\\n Password: Aptech@123 \\n click here to log in http://{settings.DOMAIN}/ '\n\temail_from =  settings.EMAIL_HOST_USER\n\trecipient_list = [email]\n\tsend_mail(subject,message,email_from,recipient_list,fail_silently=False,)",
+        "detail": "Teacher.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "\trecipient_list",
+        "kind": 5,
+        "importPath": "Teacher.helpers",
+        "description": "Teacher.helpers",
+        "peekOfCode": "\trecipient_list = [email]\n\tsend_mail(subject,message,email_from,recipient_list,fail_silently=False,)\n\treturn True\ndef send_mail_user(email,student_login_name):\n\tsubject = 'Class Tracker Login Link'\n\tmessage = f'Welcome, {student_login_name} 🎉 \\n Your registration was successful,and we are thrilled to welcome you to Class Tracker \\n Username: {student_login_name}\\n Password: Aptech@123 \\n click here to log in http://{settings.DOMAIN}/ '\n\temail_from =  settings.EMAIL_HOST_USER\n\trecipient_list = [email]\n\tsend_mail(subject,message,email_from,recipient_list,fail_silently=False,)\n\treturn True",
+        "detail": "Teacher.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "\tsubject",
+        "kind": 5,
+        "importPath": "Teacher.helpers",
+        "description": "Teacher.helpers",
+        "peekOfCode": "\tsubject = 'Class Tracker Login Link'\n\tmessage = f'Welcome, {student_login_name} 🎉 \\n Your registration was successful,and we are thrilled to welcome you to Class Tracker \\n Username: {student_login_name}\\n Password: Aptech@123 \\n click here to log in http://{settings.DOMAIN}/ '\n\temail_from =  settings.EMAIL_HOST_USER\n\trecipient_list = [email]\n\tsend_mail(subject,message,email_from,recipient_list,fail_silently=False,)\n\treturn True",
+        "detail": "Teacher.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "\tmessage",
+        "kind": 5,
+        "importPath": "Teacher.helpers",
+        "description": "Teacher.helpers",
+        "peekOfCode": "\tmessage = f'Welcome, {student_login_name} 🎉 \\n Your registration was successful,and we are thrilled to welcome you to Class Tracker \\n Username: {student_login_name}\\n Password: Aptech@123 \\n click here to log in http://{settings.DOMAIN}/ '\n\temail_from =  settings.EMAIL_HOST_USER\n\trecipient_list = [email]\n\tsend_mail(subject,message,email_from,recipient_list,fail_silently=False,)\n\treturn True",
+        "detail": "Teacher.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "\temail_from",
+        "kind": 5,
+        "importPath": "Teacher.helpers",
+        "description": "Teacher.helpers",
+        "peekOfCode": "\temail_from =  settings.EMAIL_HOST_USER\n\trecipient_list = [email]\n\tsend_mail(subject,message,email_from,recipient_list,fail_silently=False,)\n\treturn True",
+        "detail": "Teacher.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "\trecipient_list",
+        "kind": 5,
+        "importPath": "Teacher.helpers",
+        "description": "Teacher.helpers",
+        "peekOfCode": "\trecipient_list = [email]\n\tsend_mail(subject,message,email_from,recipient_list,fail_silently=False,)\n\treturn True",
+        "detail": "Teacher.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "my_middleware",
+        "kind": 2,
+        "importPath": "Teacher.middlewares",
+        "description": "Teacher.middlewares",
+        "peekOfCode": "def my_middleware(get_response):\n\tdef middleware_function(request):\n\t\tif request.user.is_authenticated:\n\t\t\ttry:\n\t\t\t\tstudent = AddStudent.objects.get(user = request.user)\n\t\t\t\tif student.student_status == \"Drop_out\":\n\t\t\t\t\tlogout(request)\n\t\t\t\t\treturn redirect(reverse('account_locked'))\n\t\t\texcept AddStudent.DoesNotExist:\n\t\t\t\tpass",
+        "detail": "Teacher.middlewares",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\t\tstudent",
+        "kind": 5,
+        "importPath": "Teacher.middlewares",
+        "description": "Teacher.middlewares",
+        "peekOfCode": "\t\t\t\tstudent = AddStudent.objects.get(user = request.user)\n\t\t\t\tif student.student_status == \"Drop_out\":\n\t\t\t\t\tlogout(request)\n\t\t\t\t\treturn redirect(reverse('account_locked'))\n\t\t\texcept AddStudent.DoesNotExist:\n\t\t\t\tpass\n\t\tresponse = get_response(request)\n\t\treturn response\n\treturn middleware_function",
+        "detail": "Teacher.middlewares",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tresponse",
+        "kind": 5,
+        "importPath": "Teacher.middlewares",
+        "description": "Teacher.middlewares",
+        "peekOfCode": "\t\tresponse = get_response(request)\n\t\treturn response\n\treturn middleware_function",
+        "detail": "Teacher.middlewares",
+        "documentation": {}
+    },
+    {
+        "label": "AddSubject",
+        "kind": 6,
+        "importPath": "Teacher.models",
+        "description": "Teacher.models",
+        "peekOfCode": "class AddSubject(models.Model):\n    subject_id = models.AutoField(primary_key=True)\n    subject_name = models.CharField(max_length=100,unique=True)\n    def __str__(self):\n        return self.subject_name\n#This is Add Batch model\nclass AddBatch(models.Model):\n    batch_id = models.AutoField(primary_key=True)\n    batch_name = models.CharField(max_length=100)\n    batch_faculty = models.CharField(max_length=100)",
+        "detail": "Teacher.models",
+        "documentation": {}
+    },
+    {
+        "label": "AddBatch",
+        "kind": 6,
+        "importPath": "Teacher.models",
+        "description": "Teacher.models",
+        "peekOfCode": "class AddBatch(models.Model):\n    batch_id = models.AutoField(primary_key=True)\n    batch_name = models.CharField(max_length=100)\n    batch_faculty = models.CharField(max_length=100)\n    batch_startdate = models.DateField()\n    batch_starttime = models.TimeField()\n    batch_endtime = models.TimeField()\n    batch_subjects = models.ManyToManyField(AddSubject)\n    def __str__(self):\n        return f\"{self.batch_name} - ({self.batch_starttime} - {self.batch_endtime})\"",
+        "detail": "Teacher.models",
+        "documentation": {}
+    },
+    {
+        "label": "AddStudent",
+        "kind": 6,
+        "importPath": "Teacher.models",
+        "description": "Teacher.models",
+        "peekOfCode": "class AddStudent(models.Model):\n    user = models.OneToOneField(User,on_delete=models.PROTECT,primary_key=True)\n    student_id = models.CharField(max_length=100,unique=True)\n    student_batch = models.ForeignKey(AddBatch,on_delete=models.SET_NULL,null=True,blank=True)\n    student_name = models.CharField(max_length=100)\n    student_number = models.PositiveIntegerField()\n    student_gender = models.CharField(max_length=100)\n    student_dob = models.DateField()\n    student_address = models.CharField(max_length=300)\n    student_image = models.ImageField(upload_to='profile_image',blank=True)",
+        "detail": "Teacher.models",
+        "documentation": {}
+    },
+    {
+        "label": "Profile",
+        "kind": 6,
+        "importPath": "Teacher.models",
+        "description": "Teacher.models",
+        "peekOfCode": "class Profile(models.Model):\n    user = models.OneToOneField(User,on_delete=models.CASCADE)\n    forget_password_tokan = models.CharField(max_length=100)\n    created_at = models.DateField(auto_now_add=True)\n    def __str__(self):\n        return self.user.username\nclass Attendence(models.Model):\n    name = models.CharField(max_length=100)\n    I = models.CharField(max_length=100)\n    date = models.DateField(auto_now_add=True)",
+        "detail": "Teacher.models",
+        "documentation": {}
+    },
+    {
+        "label": "Attendence",
+        "kind": 6,
+        "importPath": "Teacher.models",
+        "description": "Teacher.models",
+        "peekOfCode": "class Attendence(models.Model):\n    name = models.CharField(max_length=100)\n    I = models.CharField(max_length=100)\n    date = models.DateField(auto_now_add=True)\n    status = models.CharField(max_length=100,default=True)\n    subject = models.CharField(max_length=100)\nclass Batch_message(models.Model):\n    batch = models.ForeignKey(AddBatch, on_delete=models.CASCADE)\n    message = models.CharField(max_length=500)\n    created_at = models.DateTimeField(auto_now_add=True)",
+        "detail": "Teacher.models",
+        "documentation": {}
+    },
+    {
+        "label": "Batch_message",
+        "kind": 6,
+        "importPath": "Teacher.models",
+        "description": "Teacher.models",
+        "peekOfCode": "class Batch_message(models.Model):\n    batch = models.ForeignKey(AddBatch, on_delete=models.CASCADE)\n    message = models.CharField(max_length=500)\n    created_at = models.DateTimeField(auto_now_add=True)\n    file = models.FileField(upload_to='batch_files/', blank=True, null=True)\n    def __str__(self):\n        return self.batch.batch_name\nclass Announcement(models.Model):\n    announcement_image = models.ImageField(upload_to='Evenet_Img',blank=True)\n    announcement = models.CharField(max_length=500)",
+        "detail": "Teacher.models",
+        "documentation": {}
+    },
+    {
+        "label": "Announcement",
+        "kind": 6,
+        "importPath": "Teacher.models",
+        "description": "Teacher.models",
+        "peekOfCode": "class Announcement(models.Model):\n    announcement_image = models.ImageField(upload_to='Evenet_Img',blank=True)\n    announcement = models.CharField(max_length=500)\n    created_at = models.DateTimeField(auto_now_add=True)\n# //Leave Planner\nclass LeavePlannerModel(models.Model):\n    student = models.ForeignKey(AddStudent, on_delete=models.CASCADE, null=True, blank=True)\n    student_name = models.CharField(max_length=250)\n    leave_type = models.CharField(max_length=100)\n    leave_startdate = models.DateField()",
+        "detail": "Teacher.models",
+        "documentation": {}
+    },
+    {
+        "label": "LeavePlannerModel",
+        "kind": 6,
+        "importPath": "Teacher.models",
+        "description": "Teacher.models",
+        "peekOfCode": "class LeavePlannerModel(models.Model):\n    student = models.ForeignKey(AddStudent, on_delete=models.CASCADE, null=True, blank=True)\n    student_name = models.CharField(max_length=250)\n    leave_type = models.CharField(max_length=100)\n    leave_startdate = models.DateField()\n    leave_enddate = models.DateField()\n    leave_reason = models.CharField(max_length=100)\n    leave_status = models.CharField(max_length=100,default='Pending')\n    def __str__(self):\n        return f\"{self.student_name} - {self.leave_type} from {self.leave_startdate} to {self.leave_enddate}\"",
+        "detail": "Teacher.models",
+        "documentation": {}
+    },
+    {
+        "label": "Task",
+        "kind": 6,
+        "importPath": "Teacher.models",
+        "description": "Teacher.models",
+        "peekOfCode": "class Task(models.Model):\n    date = models.DateField()\n    description = models.TextField()\n    starttime = models.TimeField()\n    endtime = models.TimeField()\n    task_status = models.CharField(max_length=100,default='Pending',choices=TASK_STATUS_CHOICES,)\n    def __str__(self):\n        return f\"{self.date}: {self.description}\"\n    def __str__(self):\n        return f\"{self.task_status}\"",
+        "detail": "Teacher.models",
+        "documentation": {}
+    },
+    {
+        "label": "TASK_STATUS_CHOICES",
+        "kind": 5,
+        "importPath": "Teacher.models",
+        "description": "Teacher.models",
+        "peekOfCode": "TASK_STATUS_CHOICES = (\n    ('Pending', 'Pending'),\n    ('Complete', 'Complete'),\n)\nclass Task(models.Model):\n    date = models.DateField()\n    description = models.TextField()\n    starttime = models.TimeField()\n    endtime = models.TimeField()\n    task_status = models.CharField(max_length=100,default='Pending',choices=TASK_STATUS_CHOICES,)",
+        "detail": "Teacher.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "Teacher.urls",
+        "description": "Teacher.urls",
+        "peekOfCode": "urlpatterns = [\n    path('addsubject/', views.add_subject,name='addsubject'),\n    path('updatesubject/<int:id>',views.updatesubject,name='updatesubject'),\n    path('delete_subject/<int:id>',views.delete_subject,name='deletesubject'),\n    path('addbatch/', views.add_batch,name='addbatch'),\n    path('update_batch/<int:id>/',views.update_batch,name='updatebatch'),\n    path('delete_batch/<int:id>/',views.delete_batch,name='deletebatch'),\n    path('addstudent/', views.add_student,name='addstudent'),\n    path('viewallstudent/', views.view_all_student,name='viewallstudent'),\n    path('updatestudent/<str:id>/', views.update_stud,name='updatestudent'),",
+        "detail": "Teacher.urls",
+        "documentation": {}
+    },
+    {
+        "label": "account_locked",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def account_locked(request):\n    return render(request,\"Teacher/account_locked.html\")\ndef access_denied(request):\n    return render(request,\"Teacher/access_denied.html\")\ndef navbar(request):\n    if request.user.is_authenticated:\n        return render(request,'Teacher/navbar.html',)\ndef add_subject(request):\n    if request.user.is_authenticated and request.user.is_superuser == True:",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "access_denied",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def access_denied(request):\n    return render(request,\"Teacher/access_denied.html\")\ndef navbar(request):\n    if request.user.is_authenticated:\n        return render(request,'Teacher/navbar.html',)\ndef add_subject(request):\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        stud_data = AddStudent.objects.get(user=request.user)\n        allsub=None",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "navbar",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def navbar(request):\n    if request.user.is_authenticated:\n        return render(request,'Teacher/navbar.html',)\ndef add_subject(request):\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        stud_data = AddStudent.objects.get(user=request.user)\n        allsub=None\n        if request.method == \"POST\":\n            form = form = AddSubjectForm(request.POST)\n            if form.is_valid():",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_subject",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def add_subject(request):\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        stud_data = AddStudent.objects.get(user=request.user)\n        allsub=None\n        if request.method == \"POST\":\n            form = form = AddSubjectForm(request.POST)\n            if form.is_valid():\n                sub=form.save(commit=False)\n                mydata = AddSubject.objects.filter(subject_name__iexact=sub.subject_name)\n                if(mydata):",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "updatesubject",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def updatesubject(request,id):\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        stud_data = AddStudent.objects.get(user=request.user)\n        if request.method == 'POST':\n            subject = AddSubject.objects.get(subject_id=id)\n            form = AddSubjectForm(request.POST,instance=subject)\n            if form.is_valid():\n                sub=form.save(commit=False)\n                mydata = AddSubject.objects.filter(subject_name__iexact=sub.subject_name)\n                if(mydata):",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_subject",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def delete_subject(request,id):\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        if request.method==\"POST\":\n            pi=AddSubject.objects.get(subject_id=id)\n            pi.delete()\n            messages.success(request,\"Subject Deleted Successfully\")\n            return redirect('addsubject')\n    else:\n        messages.success(request,\"YOU DON'T HAVE AN ACCESS TO MANAGE THIS AUTHERITY\")\n        return redirect('access_denied')",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_batch",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def add_batch(request):\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        stud_data = AddStudent.objects.get(user=request.user)\n        if request.method == \"POST\":\n            form = form = AddBatchForm(request.POST)\n            if form.is_valid():\n                form.save()\n                messages.success(request,\"Batch Added successfully\")\n                return redirect('addbatch')\n        else:",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "update_batch",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def update_batch(request,id):\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        stud_data = AddStudent.objects.get(user=request.user)\n        if request.method == 'POST':\n            batch = AddBatch.objects.get(batch_id=id)\n            form = AddBatchForm(request.POST,instance=batch)\n            if form.is_valid():\n                form.save()\n                messages.success(request,\"Batch Updated Successfully\")\n                return redirect('showbatch')",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_batch",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def delete_batch(request, id):\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        if request.method==\"POST\":\n            pi=AddBatch.objects.get(batch_id=id)\n            pi.delete()\n            messages.success(request,\"Batch Deleted Successfully\")\n            return redirect('showbatch')\n    else:\n        messages.success(request,\"YOU DON'T HAVE AN ACCESS TO MANAGE THIS AUTHERITY\")\n        return redirect('access_denied')",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_student",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def add_student(request):\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        stud_data = AddStudent.objects.get(user=request.user)\n        if request.method == 'POST':\n            form1 = StudentCreationForm(request.POST)\n            form2 = StudentDataForm(request.POST, request.FILES)\n            email = request.POST.get(\"email\")\n            student_login_name = request.POST.get(\"username\")\n            if form1.is_valid() and form2.is_valid():\n                user = form1.save()",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "view_all_student",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def view_all_student(request):\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        stud_data = AddStudent.objects.get(user=request.user)\n        StudentInfo=AddStudent.objects.all()[1::]\n    else:\n        messages.success(request,\"YOU DON'T HAVE AN ACCESS TO MANAGE THIS AUTHERITY\")\n        return redirect(\"access_denied\")\n    return render(request,\"Teacher/view_all_student.html\",{\"studInfo\":StudentInfo, 'stud_data':stud_data, 'name':request.user,})\ndef update_stud(request,id):\n    if request.user.is_authenticated and request.user.is_superuser == True:",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "update_stud",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def update_stud(request,id):\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        stud_data = AddStudent.objects.get(user=request.user)\n        if request.method==\"POST\":\n            pi=AddStudent.objects.get(student_id=id)\n            form=StudentDataForm(request.POST,instance=pi)\n            if form.is_valid():\n                form.save()\n                messages.success(request,\"Student Updated Successfully\")\n                return redirect('viewallstudent')",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_student",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def delete_student(request,id):\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        if request.method==\"POST\":\n            pi=AddStudent.objects.get(student_id=id)\n            pi.delete()\n            messages.success(request,\"Subject Deleted Successfully\")\n        return redirect('viewallstudent')\n    else:\n        messages.success(request,\"YOU DON'T HAVE AN ACCESS TO MANAGE THIS AUTHERITY\")\n        return redirect(\"access_denied\")",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "user_log",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def user_log(request):\n    if request.method == 'POST':\n        fm = LoginForm(request=request,data=request.POST)\n        if fm.is_valid():\n            uname = fm.cleaned_data['username']\n            upass = fm.cleaned_data['password']\n            user = authenticate(username=uname,password=upass)\n            if user is not None:\n                login(request, user)\n                if request.user.is_superuser == True:",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "user_logout",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def user_logout(request):\n    logout(request)\n    return redirect('login')\ndef dashboard(request):\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        stud_data = AddStudent.objects.get(user=request.user)\n        sum_stud = AddStudent.objects.all().count()-1\n        sum_batch = AddBatch.objects.all().count()\n        date = datetime.datetime.now().date()\n        tasks = Task.objects.filter(date=date)",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def dashboard(request):\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        stud_data = AddStudent.objects.get(user=request.user)\n        sum_stud = AddStudent.objects.all().count()-1\n        sum_batch = AddBatch.objects.all().count()\n        date = datetime.datetime.now().date()\n        tasks = Task.objects.filter(date=date)\n        batches = AddBatch.objects.all()\n        announcement=Announcement.objects.all()\n        return render(request,'Teacher/admin_dashboard.html',{'name':request.user,'stud_data':stud_data,'sum_stud':sum_stud,'sum_batch':sum_batch,'tasks': tasks,'batches':batches,'announcement':announcement})",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "show_batch",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def show_batch(request):\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        stud_data = AddStudent.objects.get(user=request.user)\n        if request.user.is_authenticated and request.user.is_superuser == True:\n            batches = AddBatch.objects.all()\n            return render(request,'Teacher/showbatch.html',{'batches':batches, 'name':request.user,'stud_data':stud_data})\n        else:\n            return render(request,\"Teacher/loginpage.html\")\n    else:\n        messages.success(request,\"YOU DON'T HAVE AN ACCESS TO MANAGE THIS AUTHERITY\")",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "show_batch_students",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def show_batch_students(request,id):\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        stud_data = AddStudent.objects.get(user=request.user)\n        batch = get_object_or_404(AddBatch,batch_id=id)\n        students = AddStudent.objects.filter(student_batch=batch)\n        batchid = AddBatch.objects.filter(batch_id=id)\n        xyz = []\n        for i in students:\n            if i.student_status =='Active':\n                xyz.append(i)",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "take_attendance",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def take_attendance(request, id):\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        stud_data = AddStudent.objects.get(user=request.user)\n        if request.method == \"POST\":\n            batch_sub = AddSubject.objects.filter(addbatch__batch_id=id)\n            students = AddStudent.objects.filter(student_batch=id)\n            for i in students:\n                selected_subject = request.POST.get('subjects')\n                attendance_data = request.POST.get(i.student_id)\n                if selected_subject == \"Select Ongoing Subject\":",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "view_attendance_teacher",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def view_attendance_teacher(request):\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        stud_data = AddStudent.objects.get(user=request.user)\n        subjects = AddSubject.objects.all()\n        stud_attendance = None\n        stud_attendance_id = None\n        stud_attendance_id_count_present = 0\n        stud_attendance_count_present = 0\n        stud_attendance_id_count_absent = 0\n        stud_attendance_count_absent = 0",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "batch_message",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def batch_message(request):\n    stud_data = AddStudent.objects.get(user=request.user)\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        d = None\n        if request.method == \"POST\":\n            form = Batch_message_form(request.POST,request.FILES)\n            if form.is_valid():\n                form.save()\n                form=Batch_message_form()\n                batches = AddBatch.objects.all()",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "ViewAPerticularAssignment",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def ViewAPerticularAssignment(request,id):\n    stud_data = AddStudent.objects.get(user=request.user)\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        batches = AddBatch.objects.get(batch_id=id)\n        form = Batch_message.objects.filter(batch_id = id)\n    else:\n        messages.success(request,\"YOU DON'T HAVE AN ACCESS TO MANAGE THIS AUTHERITY\")\n        return redirect(\"access_denied\")\n    return render(request, 'Teacher/assignmentData.html',{'batches':batches, 'form':form, 'name':request.user,'stud_data':stud_data})\n# update Assignment",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateAssignment",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def UpdateAssignment(request, id):\n    stud_data = AddStudent.objects.get(user=request.user)\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        if request.method==\"POST\":\n            pi=Batch_message.objects.get(id=id)\n            form=Batch_message_form(request.POST,request.FILES,instance=pi)\n            if form.is_valid():\n                form.save()\n                messages.success(request,\"Assignment Update Successfully\")\n                batches = AddBatch.objects.all()",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteAssignment",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def DeleteAssignment(request, id):\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        if request.method == \"POST\":\n            pi=Batch_message.objects.get(id=id)\n            pi.delete()\n            messages.success(request,\"Assignment Deleted Successfully\")\n    else:\n        messages.success(request,\"YOU DON'T HAVE AN ACCESS TO MANAGE THIS AUTHERITY\")\n        return redirect(\"access_denied\")\n    return redirect('sendmessage')",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "make_announcement",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def make_announcement(request):\n    stud_data = AddStudent.objects.get(user=request.user)\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        d=None\n        if request.method == \"POST\":\n            form = Announcement_form(request.POST,request.FILES)\n            if form.is_valid():\n                form.save()\n                form=Announcement_form()\n                d = Announcement.objects.all()",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateMessage",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def UpdateMessage(request, id):\n    stud_data = AddStudent.objects.get(user=request.user)\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        if request.method==\"POST\":\n            pi=Announcement.objects.get(id=id)\n            form=Announcement_form(request.POST,instance=pi)\n            if form.is_valid():\n                form.save()\n                messages.success(request,\"Announcement Update Successfully\")\n                allanno = Announcement.objects.all()",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteMessage",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def DeleteMessage(request, id):\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        if request.method == \"POST\":\n            pi=Announcement.objects.get(id=id)\n            pi.delete()\n            messages.success(request,\"Announcement Deleted Successfully\")\n    else:\n        messages.success(request,\"YOU DON'T HAVE AN ACCESS TO MANAGE THIS AUTHERITY\")\n        return redirect(\"access_denied\")\n    return redirect('makeannouncement')",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "edit_user_profile",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def edit_user_profile(request):\n    stud_data = AddStudent.objects.get(user=request.user)\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        if request.method == \"POST\":\n            pi=AddStudent.objects.get(user=request.user)\n            fm = edit_profile_user_form(request.POST,instance=request.user)\n            fm1 = edit_profile_addstudent_form(request.POST,request.FILES,instance=pi)\n            if fm.is_valid() and fm1.is_valid():\n                fm.save()\n                fm1.save()",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "adminPasswordChange",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def adminPasswordChange(request):\n    if request.user.is_authenticated:\n        if request.user.is_superuser:\n            stud_data = AddStudent.objects.get(user=request.user)\n            if request.method == \"POST\":\n                form = PasswordChangingForm(request.user, request.POST)\n                if form.is_valid():\n                    user = form.save()\n                    update_session_auth_hash(request, user)  \n                    messages.success(request, 'Your password was successfully updated!')    ",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "search_student",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def search_student(request):\n    stud_data = AddStudent.objects.get(user=request.user)\n    if request.user.is_authenticated and request.user.is_superuser == True:\n            if request.method == \"POST\":\n                search = request.POST.get('search')\n                if search == \"\":\n                    student = AddStudent.objects.all()[1::]\n                    messages.info(request,\"Please Enter Student Name\")\n                else:\n                    student = AddStudent.objects.filter(student_name__icontains=search)",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "all_leave_application",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def all_leave_application(request):\n    stud_data = AddStudent.objects.get(user=request.user)\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        Leave_data = LeavePlannerModel.objects.all()\n        return render(request,'Teacher/all_leave_application.html',{'application':Leave_data, 'name':request.user,'stud_data':stud_data})\n    else:\n        messages.success(request,\"YOU DON'T HAVE AN ACCESS TO MANAGE THIS AUTHERITY\")\n        return redirect(\"access_denied\")\n# //Leave Application form\ndef leave_application_form(request,id):",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "leave_application_form",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def leave_application_form(request,id):\n    stud_data = AddStudent.objects.get(user=request.user)\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        pi=LeavePlannerModel.objects.get(id=id)\n        if request.method=='POST':\n            form=LeaveApplicationForm(request.POST,instance=pi)\n            if form.is_valid():\n                form.save()\n                return redirect('leaveapplication') \n        else:",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_levae",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def delete_levae(request,id):\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        if request.method == \"POST\":\n            pi=LeavePlannerModel.objects.get(id=id)\n            pi.delete()\n    else:\n        return redirect(\"access_denied\")\n    return redirect('leaveapplication')\ndef announcement_detail(request,id):\n    announcement= Announcement.objects.get(id=id)",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "announcement_detail",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def announcement_detail(request,id):\n    announcement= Announcement.objects.get(id=id)\n    print(announcement)\n    return render(request,'Teacher/announcement_detail.html',{'announcement':announcement})\ndef task_for_date(request, date):\n    try:\n        tasks = Task.objects.filter(date=date)  # Adjust this query as needed\n        tasks_list = [\n            {\n                'id': task.id,",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "task_for_date",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def task_for_date(request, date):\n    try:\n        tasks = Task.objects.filter(date=date)  # Adjust this query as needed\n        tasks_list = [\n            {\n                'id': task.id,\n                'description': task.description,\n                'starttime': task.starttime,\n                'endtime': task.endtime,\n                'task_status': task.task_status,",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_task",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def add_task(request):\n    stud_data = AddStudent.objects.get(user=request.user)\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        if request.method == 'POST':\n            form = TaskForm(request.POST)\n            if form.is_valid():\n                form.save()\n                return redirect('dashboardteacher')\n        else:\n            form = TaskForm()",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "update_task",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def update_task(request,id):\n    stud_data = AddStudent.objects.get(user=request.user)\n    task = Task.objects.get(id=id)\n    print(task)\n    if request.method == 'POST':\n        form = TaskForm(request.POST, instance=task)\n        if form.is_valid():\n            form.save()\n            return redirect('dashboardteacher')\n    else:",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "forget_change_password",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def forget_change_password(request, token):\n    context = {}\n    try:\n        profile_obj = Profile.objects.filter(forget_password_tokan = token).first()\n        context = {'user_id':profile_obj.user.id}\n        if request.method == 'POST':\n            new_password = request.POST.get(\"new-password\")\n            confirm_password = request.POST.get(\"confirm-password\")\n            user_id = request.POST.get(\"user_id\")\n            if user_id is None:",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "forget_password",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def forget_password(request):\n    try:\n        if request.method == 'POST':\n            username = request.POST.get('username')\n            if not User.objects.filter(username=username).first():\n                messages.success(request,\"User Not Found\")\n                return redirect('/login/')\n            user_obj = User.objects.get(username=username)\n            # print(user_obj)\n            token = str(uuid.uuid4())",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_task",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def delete_task(request, id):\n    if request.user.is_authenticated and request.user.is_superuser:\n        task = get_object_or_404(Task, id=id)\n        task.delete()\n        return JsonResponse({'success': True})  # Return a JSON response indicating success\n    else:\n        return JsonResponse({'success': False, 'error': 'Unauthorized'}, status=403)\ndef today_task_delete(request ,id):\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        if request.method == \"POST\":",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "today_task_delete",
+        "kind": 2,
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "peekOfCode": "def today_task_delete(request ,id):\n    if request.user.is_authenticated and request.user.is_superuser == True:\n        if request.method == \"POST\":\n            pi=Task.objects.get(id=id)\n            pi.delete()\n        return redirect('dashboardteacher')\n    else:\n        return redirect(\"access_denied\")",
+        "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'MYPRO.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"\n        ) from exc",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

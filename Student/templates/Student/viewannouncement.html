@@ -1,0 +1,76 @@
+{% extends "Teacher/base.html" %}
+{% load static %}
+
+
+{% block content %}
+<h4 class="container  mt-3 borderline pb-2 textcolor">Announcement</h4>
+
+{% if messages %}
+    {% for message in messages %}
+        <h4 {% if message.tags %} class="alert alert-{{ message.tags }} text-center container"{% endif %}>{{ message }}</h4>
+    {% endfor %}
+{% endif %}
+
+{% if latest_announcement %}
+
+<div class="container text-cenetr mt-5">
+  <div class="row">
+    <div class="col-sm-4 ">
+      <div class="card text-white mb-3 latest_announcment formshadow">
+        <div class="card-header text-white">Notification</div>
+            <div class="card-body">
+              {% if latest_announcement.announcement|length > 40%}
+              <h6 class="card-title text-white"><a class='text-white' href=" {% url "announcementdetail" latest_announcement.id %}">{{latest_announcement.announcement|truncatewords:5}}<span class='text-primary'>Read-more</span></a></h6>
+              {% else %}
+              <h6 class="card-title text-white"><a class='text-white' href=" {% url "announcementdetail" latest_announcement.id %}">{{latest_announcement.announcement}}<span class='text-primary'>Read-more</span></a></h6>
+              {% endif %}
+              <p class="card-text text-white"><small class=" text-white">{{latest_announcement.created_at}}</small></p>
+            </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+{% else %}
+
+<div class="container text-center mt-5">
+  <img src="{% static 'Teacher/images/no_notification2.png' %}" alt="">
+  <h3 class='text-capitalize'>no announcement yet</h3>
+  <p class='text-capitalize'>you have no announcement right now.<br>come back later</p>
+</div>
+
+{% endif %}
+
+
+   
+    <div class="container mt-5">
+      <div class="row ">
+        {% if announcement %}
+
+            {% for i in announcement %}
+                  
+            <div class="col-sm-4 text-cenetr">
+
+              <div class="card text-white bg-light mb-3 stud_announcement formshadow">
+                <div class="card-header text-dark">Notification</div>
+                    <div class="card-body">
+                      {% if i.announcement|length > 40%}
+                      <h6 class="card-title"><a href=" {% url "announcementdetail" i.id %}">{{i.announcement|truncatewords:5}}<span class='text-primary'>Read-more</span></a></h6>
+                      {% else %}
+                      <h6 class="card-title"><a href=" {% url "announcementdetail" i.id %}">{{i.announcement}}<span class='text-primary'>Read-more</span></a></h6>
+                      {% endif %}
+                      <p class="card-text"><small class="text-muted ">{{i.created_at}}</small></p>
+                    </div>
+              </div>
+              
+            </div>
+
+            {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+
+
+
+{% endblock content %}

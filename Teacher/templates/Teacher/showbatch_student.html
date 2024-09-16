@@ -1,0 +1,80 @@
+{% extends "Teacher/base.html" %}
+
+{% load static %}
+
+
+{% block content %}
+
+
+<div class="student-list-header container d-flex flex-row justify-content-between align-items-center">
+
+    <h4 class="mt-3 pb-2 borderline textcolor">Student List</h4>
+
+    {% for bat in batchid %}
+
+    <a href="{% url 'takeattendance' bat.batch_id %}" class="btn buttoncolor btn-sm">Take Attendence</a>
+
+    {% endfor %}
+
+</div>
+
+<div class="container formbgcolor formshadow p-2 mt-5 rounded-3">
+
+    <table class="table table-hover">
+
+        <thead>
+
+          <tr class="text-center">
+
+            <th scope="col">ID</th>
+
+            <th scope="col">Name</th>
+
+            <th scope="col">Batch</th>
+
+            <th scope="col">Contact No</th>
+
+            {% comment %} <th scope="col">Action</th> {% endcomment %}
+
+          </tr>
+
+        </thead>
+
+        <tbody>
+
+        {% for student in students %}
+          
+
+        <tr class="text-center">
+
+            <th>{{student.student_id}}</th>
+
+            <td>{{student.student_name}}</td>
+
+            <td>{{student.student_batch}}</td>
+
+            <td>{{student.student_number}}</td>
+
+            {% comment %} <td>
+
+                <a href="" class="btn btn-warning btn-sm">Update</a>
+
+                <a href="" class="btn btn-danger btn-sm">Delete</a>
+
+            </td> {% endcomment %}
+
+        </tr>
+        
+        {% endfor %}
+
+        </tbody>
+
+      </table>
+
+    
+
+</div>
+
+
+{% endblock content %}
+

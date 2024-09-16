@@ -1,0 +1,70 @@
+{% extends "Teacher/base.html" %}
+
+{% load static %}
+
+
+
+{% block content %}
+
+    <h2 class="container my-5 pb-2 borderline  textcolor">{{batches.batch_name}}</h2>
+
+   
+
+    <div class="container  mt-5">
+
+        {% comment %} {{batches.as_p}} {% endcomment %}
+
+        <table class="table text-center formbgcolor formshadow">
+
+            <thead>
+
+                <tr>
+
+                <th>Assignment</th>
+
+                <th>Date</th>
+
+                <th>Action</th>
+
+            </tr>
+
+            </thead>
+
+            <tbody>
+
+            {% for data in form %}
+
+                <tr>
+
+                    <td>{{data.message|truncatewords:5}}</td>
+
+                    <td>{{data.created_at}}</td>
+
+                    <td>
+
+                    <a href="{% url "updateassignment" data.id %}" class="btn buttoncolor ">View</a>
+
+                    <form action="{% url "deleteassignment" data.id %}" method="post" class="d-inline">
+
+                        {% csrf_token %}
+
+                        <input type="submit" class="btn btn-danger " value="Delete"/>
+
+                    </form>
+
+                    </td>
+
+                </tr>
+
+            {% endfor %} 
+
+            </tbody> 
+
+        </table>  
+
+    </div>
+
+
+
+{% endblock content %}
+

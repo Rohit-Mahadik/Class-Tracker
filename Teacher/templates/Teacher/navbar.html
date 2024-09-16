@@ -1,0 +1,92 @@
+{% load static %}
+
+<nav class="navbar-container">
+	<i class="fa-solid fa-bars-staggered fa-2x hamburger"></i>
+	<div class="navbar-img"><img src="{% static "Teacher/images/Navbar-logo.png" %}" alt="" srcset=""></div>
+	<div class="personal-info">
+		<h2>{{name}}  <i class="fa-solid fa-caret-down"></i></h2>
+		<div class="img-section mx-2">
+			{% if stud_data.student_image %}
+			<img src="{{stud_data.student_image.url}}" alt="">
+			{% else %}
+			<img src="{% static 'Teacher/images/user-default.png' %}" alt="Not Img">
+			{% endif %}
+		</div>
+	</div>
+</nav>
+
+
+<div class="user-box">
+	<div class="user-link-setting">
+		<div class="user-nav-icon">
+			<i class="fa-solid fa-gear mb-2"></i>
+		</div>
+		<div class="user-nav-link">
+			<h6>Settings</h6>
+		</div>
+	</div>
+
+	<div class="setting-group">
+		<div class="user-link-group">
+			<div class="user-nav-icon">
+				<i class="fa-solid fa-id-card mb-2"></i>
+			</div>
+			{% if request.user.is_superuser %}
+			<div class="user-nav-link">
+				<h6><a href="{% url 'editadminprofile' %}" class="sidebar-links">Edit Profile</a></h6>
+			</div>
+			{% else %}
+			<div class="user-nav-link">
+				<h6><a href="{% url 'editprofile' %}" class="sidebar-links">Edit Profile</a></h6>
+			</div>
+			{% endif %}
+		</div>
+	
+		<div class="user-link-group">
+			<div class="user-nav-icon">
+				<i class="fa-solid fa-unlock"></i>
+			</div>
+			{% if request.user.is_superuser  %}
+                <div class="user-nav-link">
+                    <h6><a href="{% url 'adminPasswordChange' %}" class="sidebar-links">Change Password</a></h6>
+                </div>
+            {% else %}
+                <div class="user-nav-link">
+                    <h6><a href="{% url 'studpasswordchange' %}" class="sidebar-links">Change Password</a></h6>
+                </div>
+            {% endif %}
+		</div>
+	</div>
+
+	<div class="user-link">
+		<div class="user-nav-icon">
+			<i class="fa-solid fa-right-from-bracket"></i>
+		</div>
+		<div class="user-nav-link">
+			<h6><a href="{% url 'logout' %}" class="sidebar-links">Logout</a></h6>
+		</div>
+	</div>
+	
+</div>
+
+
+
+<script>
+    const personalInfo = document.querySelector(".personal-info")
+    const userBox = document.querySelector(".user-box")
+	const userLinkSetting = document.querySelector(".user-link-setting")
+	const settingGroup = document.querySelector(".setting-group")
+
+
+    personalInfo.addEventListener("click",displaybox);
+    function displaybox(){
+        userBox.classList.toggle("show");
+    }
+	
+	userLinkSetting.addEventListener("click",displaysetting);
+    function displaysetting(){
+		settingGroup.classList.toggle("showgroup")
+		
+    }
+</script>
+

@@ -1,0 +1,43 @@
+{% load static %}
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="{% static 'Teacher/css/bootstrap.css' %}">
+	<link rel="stylesheet" href="{% static 'Teacher/css/style.css' %}">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+	<title>Class Tracker</title>
+</head>
+<body>
+	
+		<div class="dashboard">
+
+			<div class="navbar">
+				{% include "Teacher/navbar.html" %}
+			</div>
+
+			<div class="screen">
+
+				<div class="sidebar">
+					{% include "Teacher/sidebar.html" %}
+				</div>
+
+				<div class="main-block">
+					{% block content %}
+			
+					{% endblock content %}
+				</div>
+
+			</div>
+		</div>
+	
+	
+
+	<script src="{% static 'Teacher/js/jquery.js' %}"></script>
+	<script src="{% static 'Teacher/js/popper.js' %}"></script>
+	<script src="{% static 'Teacher/js/bootstrap.js' %}"></script>
+	<script src="{% static 'Teacher/js/script.js' %}"></script>
+	<script src="{% static 'Teacher/js/app.js' %}"></script>
+	
+</body>
+</html>

@@ -1,0 +1,148 @@
+{% extends "Teacher/base.html" %}
+
+{% load static %}
+
+
+{% block content %}
+
+<h4 class="container attendance-table mt-3 borderline textcolor pb-2">Attendance</h4>
+
+{% if messages %}
+
+    {% for message in messages %}
+
+    <p {% if message.tags %} class="alert alert-{{ message.tags }}"{% endif %}>{{ message }}</p>
+
+    {% endfor %}
+
+{% endif %}
+
+
+<form action="{% url 'teacherviewattendance' %}" method="POSt" class="container formbgcolor p-2 formshadow mt-5 rounded-3">
+
+    {% csrf_token %}
+
+
+    <input type="text" id="student-name" name="student-name" class="form-control my-3" placeholder="Please enter student Full Name or ID">
+
+
+    <select name="subject" id="subject" class="form-control">
+
+        <option value="select subject">select subject</option>
+
+        {% for subject in subjects %}
+
+        <option value="{{subject}}">{{subject}}</option>
+
+        {% endfor %}
+
+    </select>
+
+
+    <input type="submit" value="search" class="btn buttoncolor mt-3">
+
+</form>
+
+
+<div class="container my-5 formbgcolor p-2">
+	<div class="row">
+		<div class="col-sm-6 text-center">
+			<h4>Present: {% if stud_attendance_id_count_present %} {{ stud_attendance_id_count_present }} {% else %} {{ stud_attendance_count_present }} {% endif %}</h4>
+		</div>
+		<div class="col-sm-6 text-center">
+			<h4>Absent: {% if stud_attendance_id_count_absent %} {{ stud_attendance_id_count_absent }} {% else %} {{ stud_attendance_count_absent }} {% endif %}</h4>
+		</div>
+	</div>
+</div>
+
+
+<div class="container  p-3 formbgcolor formshadow mt-5">
+
+    {% if stud_attendance or stud_attendance_id %}
+
+    <table class="table table-hover">
+
+        <thead>
+
+          <tr class="text-center">
+
+            <th scope="col">ID</th>
+
+            <th scope="col">Name</th>
+
+            <th scope="col">Date</th>
+
+            <th scope="col">Subject</th>
+
+            <th scope="col">Status</th>
+
+          </tr>
+
+        </thead>
+
+
+        <tbody>
+
+        {% for student in stud_attendance %}
+
+        <tr class="text-center">
+
+            <th>{{student.I}}</th>
+
+            <td>{{student.name}}</td>
+
+            <td>{{student.date}}</td>
+
+            <td>{{student.subject}}</td>
+
+            <td>{{student.status}}</td>
+
+        </tr>
+
+        {% endfor %}
+
+
+
+        {% for student in stud_attendance_id %}
+
+        <tr class="text-center">
+
+            <th>{{student.I}}</th>
+
+            <td>{{student.name}}</td>
+
+            <td>{{student.date}}</td>
+
+            <td>{{student.subject}}</td>
+
+            <td>{{student.status}}</td>
+
+        </tr>
+
+        {% endfor %}
+
+        </tbody>
+
+      </table>
+
+
+    {% else %}
+
+    <h4 class="alert alert-info container text-center">No Records</h4>
+
+    {% endif %}
+
+</div>
+
+
+
+
+{% endblock content %}
+
+
+
+
+
+
+
+

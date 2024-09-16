@@ -1,0 +1,105 @@
+{% extends "Teacher/base.html" %} {% load static %} {% block content %}
+
+<h4 class="container mt-3 borderline pb-2 textcolor">Add New Batch</h4>
+
+{% if messages %}
+  {% for message in messages %}
+<p {% if message.tags %} class="alert alert-{{ message.tags }} container text-center mt-3" {% endif %}>
+  {{ message }}
+</p>
+  {% endfor %}
+{% endif %}
+
+{% if form.non_field_errors %}
+		{% for error in form.non_field_errors %}
+			<p class="alert alert-danger">{{error}}</p>
+		{% endfor %}	
+{% endif %}
+
+
+<form action="" method="POST" class="container formbgcolor p-3 formshadow mt-5 rounded-3" novalidate>
+  {% csrf_token %}
+  
+  <!-- Display form-wide errors -->
+ 
+  
+  <div class="row pb-3">
+    <div class="col-sm-6">
+      <p>{{ form.batch_name.label }} {{ form.batch_name }}</p>
+      <!-- Display field-specific errors -->
+      {% if form.batch_name.errors %}
+        <div class="text-danger">
+          {% for error in form.batch_name.errors %}
+            <p>{{ error }}</p>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="col-sm-6">
+      <p>{{ form.batch_faculty.label }} {{ form.batch_faculty }}</p>
+      {% if form.batch_faculty.errors %}
+        <div class="text-danger">
+          {% for error in form.batch_faculty.errors %}
+            <p>{{ error }}</p>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="row pb-3">
+    <div class="col-sm-6">
+      <p>{{ form.batch_starttime.label }} {{ form.batch_starttime }}</p>
+      {% if form.batch_starttime.errors %}
+        <div class="text-danger">
+          {% for error in form.batch_starttime.errors %}
+            <p>{{ error }}</p>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="col-sm-6">
+      <p>{{ form.batch_endtime.label }} {{ form.batch_endtime }}</p>
+      {% if form.batch_endtime.errors %}
+        <div class="text-danger">
+          {% for error in form.batch_endtime.errors %}
+            <p>{{ error }}</p>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="row pb-3">
+    <div class="col-sm-12">
+      <p>{{ form.batch_startdate.label }} {{ form.batch_startdate }}</p>
+      {% if form.batch_startdate.errors %}
+        <div class="text-danger">
+          {% for error in form.batch_startdate.errors %}
+            <p>{{ error }}</p>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="row pb-3">
+    <div class="col-sm-12">
+      <p>{{ form.batch_subjects.label }} {{ form.batch_subjects }}</p>
+      {% if form.batch_subjects.errors %}
+        <div class="text-danger">
+          {% for error in form.batch_subjects.errors %}
+            <p>{{ error }}</p>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+
+  <input type="submit" class="btn buttoncolor" value="Submit" />
+  
+</form>
+
+{% endblock content %}

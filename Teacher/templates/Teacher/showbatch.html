@@ -1,0 +1,80 @@
+{% extends "Teacher/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+<h4 class="container mt-3 borderline textcolor pb-2">All Batches</h4>
+
+
+{% if messages %} {% for message in messages %}
+
+<p {% if message.tags %} class="alert alert-{{ message.tags }} container text-center mt-5" {% endif %}>
+
+  {{ message }}
+
+</p>
+
+{% endfor %} {% endif %}
+
+
+
+<div class="container formbgcolor formshadow p-2 mt-5 rounded-3">
+
+    <table class="table table-hover container">
+
+        <thead>
+
+          <tr class="text-center">
+
+            <th scope="col">Name</th>
+
+            <th scope="col">start</th>
+
+            <th scope="col">end</th>
+
+            <th scope="col">Show</th>
+
+
+          </tr>
+
+        </thead>
+
+        <tbody>
+
+        {% for batch in batches %}
+
+        <tr class="text-center">
+
+            <td><a href="{% url 'updatebatch' batch.batch_id %}" class="text-primary">{{batch.batch_name}}</a></td>
+
+            <td>{{batch.batch_starttime}}</td>
+
+            <td>{{batch.batch_endtime}}</td>
+
+            <td>
+
+                <a href="{% url 'showbatchstudent' batch.batch_id %}" class="btn buttoncolor btn-sm">Students</a>
+
+                <form action="{% url 'deletebatch' batch.batch_id %}" method="post" class="d-inline">
+
+                    {% csrf_token %}
+
+                    <input type="submit" class="btn btn-danger btn-sm" value="Delete"/>
+
+                </form>
+
+            </td>
+
+        </tr>
+
+        {% endfor %}
+
+        </tbody>
+
+      </table>
+
+</div>
+
+
+{% endblock content %}

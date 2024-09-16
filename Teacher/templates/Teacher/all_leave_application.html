@@ -1,0 +1,95 @@
+{% extends "Teacher/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+<h4 class="container mt-3 pb-2 borderline textcolor">Leave Applications</h4>
+
+<div class='container mt-5 formbgcolor p-2 formshadow rounded-3'>
+
+  <div class="row ">
+
+    <div class="col-sm-12 ">
+
+      {% if application %}
+
+      <table class="table table-hover container">
+
+        <thead>
+
+          <tr class="text-center">
+
+            <th scope="col">Name</th>
+
+            <th scope="col">Startdate</th>
+
+            <th scope="col">Enddate</th>
+
+            <th scope="col">Status</th>
+
+            <th scope="col">Action</th>
+
+          </tr>
+
+        </thead>
+
+        <tbody>
+
+      
+
+        {% for app in application %}
+
+    
+
+        <tr class="text-center">
+
+    
+
+            {% comment %} <th scope="row">{{app.student_name}}</th> {% endcomment %}
+
+    
+
+            <td><a href="{% url "leavechecker" app.id %}" class='text-decoration-none text-primary'>{{app.student_name}}</a></td>
+
+    
+
+            <td>{{app.leave_startdate}}</td>
+
+    
+
+            <td>{{app.leave_enddate}}</td>
+
+  
+
+    
+
+            <td>{{app.leave_status}}</td>
+            <td><form action="{% url "delete_leave" app.id %}" method="post">
+              {% csrf_token %}
+              <button type='submit' class='delete_task btn buttoncolor'><i class="fa-solid fa-trash"></i></button>
+          </form></td>
+
+    
+        </tr>
+
+        {% endfor %}
+
+        {% else %}
+
+          <h2 class='alert alert-warning text-center'>No Records</h2>
+
+        {% endif %}
+
+        </tbody>
+
+      </table>
+
+    </div>
+
+  </div>
+
+</div>
+
+{% endblock content %}
+

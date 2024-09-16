@@ -1,0 +1,72 @@
+{% extends "Teacher/base.html" %}
+{% load static %}
+
+
+{% block content %}
+
+<h4 class="container  mt-3 borderline pb-2 textcolor">Assignment</h4>
+
+{% if recent_assgn %}
+
+<div class="container text-cenetr mt-5">
+  <div class="row">
+    <div class="col-sm-4 ">
+
+        <div class="card latest_assignment_card formshadow">
+
+            <div class="card-body">
+              <h4 class="card-title ">Assignment <hr></h4>
+              <p class="card-subtitle mb-2 mt-2 ">{{recent_assgn.created_at}}</p>
+              <h5 class="card-text">{{recent_assgn.message|truncatewords:4}}</h5>
+              {% if recent_assgn.file %}
+              <p class="card-subtitle mb-2 mt-2">{{recent_assgn.file.url}}</p>
+              <a href="{{ recent_assgn.file.url }}" download="{{ recent_assgn.file.name }}" class='btn btn-light mt-2'>Download</a>
+              {% else %}
+              <p>No Document</p>
+              {% endif %}
+              
+            </div>
+
+        </div>
+
+    </div>
+  </div>
+</div>
+{% else %}
+
+<div class="container text-center mt-5">
+    <img src="{% static 'Teacher/images/9276421.jpg' %}" class='no_assignment' alt="">
+    <h3 class='text-capitalize'>no assignments yet</h3>
+</div>
+
+{% endif %}
+             
+
+<div class="container mt-5">
+    <div class="row ">
+      {% if ass %}
+
+          {% for i in ass %}
+                
+        <div class="col-sm-4 text-cenetr">
+
+            <div class="card bg-light older_assignment_card formshadow">
+
+                <div class="card-body">
+                  <h4 class="card-title ">Assignment <hr></h4>
+                  <p class="card-subtitle mb-2 mt-2 ">{{i.created_at}}</p>
+                  <h5 class="card-text">{{i.message}}</h5>
+                  <p class="card-subtitle mb-2 mt-2">{{i.file.url}}</p>
+                  <a href="{{ i.file.url }}" download="{{ i.file.name }}" class='btn btn-dark mt-2'>Download</a>
+                </div>
+    
+            </div>
+        
+        </div>
+
+          {% endfor %}
+          
+          {% endif %}
+    </div>
+</div>
+{% endblock content %}

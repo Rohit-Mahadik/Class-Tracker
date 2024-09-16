@@ -1,0 +1,30 @@
+{% extends "Teacher/base.html" %}
+{% load static %}
+
+
+{% block content %}
+
+<h4 class="container mt-3 borderline pb-2 textcolor">Announcement</h4>
+
+
+<div class="container mt-4">
+    <div class="card-deck announcement_deatil_card">
+        <div class="card">
+          {% if announcement.announcement_image %}
+          <img class="card-img-top" src="{{announcement.announcement_image.url}}" alt="Card image cap">
+          {% else %}
+          <h1>No Image</h1>
+          {% endif %}
+          
+          <div class="card-body">
+            <p class="card-text">{{announcement.announcement}}</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">{{announcement.created_at}}</small>
+          </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock content %}

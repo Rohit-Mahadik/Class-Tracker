@@ -1,0 +1,202 @@
+{% extends "Teacher/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+<h4 class="container pb-2 mt-3 borderline textcolor">Add New Student</h4>
+
+{% if messages %}
+    {% for message in messages %}
+        <p {% if message.tags %} class="alert alert-{{ message.tags }} text-center container my-5"{% endif %}>{{ message }}</p>
+    {% endfor %}
+{% endif %}
+
+<form action="" method="POST" class="container formshadow formbgcolor my-5 p-3 rounded-3" enctype="multipart/form-data" novalidate>
+    {% csrf_token %}
+
+    <!-- Display non-field errors for form1 -->
+    {% if form1.non_field_errors %}
+        <div class="alert alert-danger">
+            {% for error in form1.non_field_errors %}
+                <p>{{ error }}</p>
+            {% endfor %}
+        </div>
+    {% endif %}
+
+    <!-- Display field-specific errors for form1 -->
+    <div class="row pb-3">
+        {% for field in form1 %}
+            <div class="col-sm-6 mb-3">
+                <div class="form-group">
+                    <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+                    {{ field }}
+                    {% if field.errors %}
+                        <div class="text-danger mt-2">
+                            {% for error in field.errors %}
+                                <p>{{ error }}</p>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    <!-- Display non-field errors for form2 -->
+    {% if form2.non_field_errors %}
+        <div class="alert alert-danger">
+            {% for error in form2.non_field_errors %}
+                <p>{{ error }}</p>
+            {% endfor %}
+        </div>
+    {% endif %}
+
+    <!-- Display field-specific errors for form2 -->
+    <div class="row pb-3">
+        <div class="col-sm-6 mb-3">
+            <div class="form-group">
+                {{ form2.student_id.label }}
+                {{ form2.student_id }}
+                {% if form2.student_id.errors %}
+                    <div class="text-danger mt-2">
+                        {% for error in form2.student_id.errors %}
+                            <p>{{ error }}</p>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+
+        <div class="col-sm-6 mb-3">
+            <div class="form-group">
+                {{ form2.student_name.label }}
+                {{ form2.student_name }}
+                {% if form2.student_name.errors %}
+                    <div class="text-danger mt-2">
+                        {% for error in form2.student_name.errors %}
+                            <p>{{ error }}</p>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row pb-3">
+        <div class="col-sm-6 mb-3">
+            <div class="form-group">
+                {{ form2.student_gender.label }}
+                {{ form2.student_gender }}
+                {% if form2.student_gender.errors %}
+                    <div class="text-danger mt-2">
+                        {% for error in form2.student_gender.errors %}
+                            <p>{{ error }}</p>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+
+        <div class="col-sm-6 mb-3">
+            <div class="form-group">
+                {{ form2.student_dob.label }}
+                {{ form2.student_dob }}
+                {% if form2.student_dob.errors %}
+                    <div class="text-danger mt-2">
+                        {% for error in form2.student_dob.errors %}
+                            <p>{{ error }}</p>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row pb-3">
+        <div class="col-sm-6 mb-3">
+            <div class="form-group">
+                {{ form2.student_batch.label }}
+                {{ form2.student_batch }}
+                {% if form2.student_batch.errors %}
+                    <div class="text-danger mt-2">
+                        {% for error in form2.student_batch.errors %}
+                            <p>{{ error }}</p>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+
+        <div class="col-sm-6 mt-3">
+            <div class="form-group">
+                {{ form2.student_status.label }}
+                {{ form2.student_status }}
+                {% if form2.student_status.errors %}
+                    <div class="text-danger mt-2">
+                        {% for error in form2.student_status.errors %}
+                            <p>{{ error }}</p>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row pb-3">
+        <div class="col-sm-6 mb-3">
+            <div class="form-group">
+                {{ form2.student_number.label }}
+                {{ form2.student_number }}
+                {% if form2.student_number.errors %}
+                    <div class="text-danger mt-2">
+                        {% for error in form2.student_number.errors %}
+                            <p>{{ error }}</p>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+
+        <div class="col-sm-6 mt-4">
+            <div class="form-group">
+                {{ form2.student_image.label }}
+                {{ form2.student_image }}
+                {% if form2.student_image.errors %}
+                    <div class="text-danger mt-2">
+                        {% for error in form2.student_image.errors %}
+                            <p>{{ error }}</p>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="row pb-3">
+            <div class="col-sm-12 mb-3">
+                <div class="form-group">
+                    {{ form2.student_address.label }}
+                    {{ form2.student_address }}
+                    {% if form2.student_address.errors %}
+                        <div class="text-danger mt-2">
+                            {% for error in form2.student_address.errors %}
+                                <p>{{ error }}</p>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+    </div>
+
+    <input type="submit" class="btn buttoncolor" value="Add Student">
+</form>
+
+{% endblock content %}
+
+

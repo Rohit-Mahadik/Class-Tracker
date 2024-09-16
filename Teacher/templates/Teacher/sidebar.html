@@ -1,0 +1,167 @@
+{% load static %}
+
+<div class="start-box mt-3">
+	
+	{% if request.user.is_superuser == True %}
+
+	<div class="link">
+		<div class="nav-icon">
+			<i class="fa-solid fa-house"></i>
+		</div>
+		<div class="nav-link">
+			<a href="{% url 'dashboardteacher' %}" class="sidebar-links">Dashboard</a>
+		</div>
+	</div>
+
+
+	<div class="link">
+		<div class="nav-icon">
+			<i class="fa-solid fa-layer-group"></i>
+		</div>
+		<div class="nav-link">
+			<a href="{% url 'addsubject' %}" class="sidebar-links">Add subject</a>	
+		</div>
+	</div>
+	
+	<div class="link">
+		<div class="nav-icon">
+			<i class="fa-solid fa-pen-to-square"></i>
+		</div>
+		<div class="nav-link">
+			<a href="{% url 'addbatch' %}" class="sidebar-links">Add Batch</a>
+		</div>
+	</div>
+	
+	<div class="link">
+		<div class="nav-icon">
+			<i class="fa-solid fa-user-plus"></i>
+		</div>
+		<div class="nav-link">
+			<a href="{% url 'addstudent' %}" class="sidebar-links">Add Student</a>
+		</div>
+	</div>
+	
+	<div class="link">
+		<div class="nav-icon">
+			<i class="fa-solid fa-list"></i>
+		</div>
+		<div class="nav-link">
+			<a href="{% url 'viewallstudent' %}" class="sidebar-links">View Students</a>
+		</div>
+	</div>
+	
+	<div class="link">
+		<div class="nav-icon">
+			<i class="fa-solid fa-address-book"></i>
+		</div>
+		<div class="nav-link">
+			<a href="{% url 'showbatch' %}" class="sidebar-links">Show Batch</a>
+		</div>
+	</div>
+
+	<div class="link">
+		<div class="nav-icon">
+			<i class="fa-regular fa-clock"></i>
+		</div>
+		<div class="nav-link">
+			<a href="{% url 'teacherviewattendance' %}" class="sidebar-links">View Attendance</a>
+		</div>
+	</div>
+	
+	<div class="link">
+		<div class="nav-icon">
+			<i class="fa-solid fa-pen-to-square"></i>
+		</div>
+		<div class="nav-link">
+			<a href="{% url 'sendmessage' %}" class="sidebar-links">Assignment</a>
+		</div>
+	</div>
+
+	
+
+	<div class="link">
+		<div class="nav-icon">
+			<i class="fa-solid fa-bullhorn"></i>
+		</div>
+		<div class="nav-link">
+			<a href="{% url 'makeannouncement' %}" class="sidebar-links">Announcement</a>
+		</div>
+	</div>
+
+	
+	<div class="link">
+		<div class="nav-icon">
+			<i class="fa-solid fa-calendar-days"></i>
+		</div>
+		<div class="nav-link">
+			<a href="{% url 'allleaveapplication' %}" class="sidebar-links">Student Leaves</a>
+		</div>
+	</div>
+	
+
+	{% else %}
+
+	<div class="link">
+		<div class="nav-icon">
+			<i class="fa-solid fa-house"></i>
+		</div>
+		<div class="nav-link">
+			<a href="{% url 'dashboardstudent' %}" class="sidebar-links">Dashboard</a>
+		</div>
+	</div>
+
+
+	<div class="link">
+		<div class="nav-icon">
+			<i class="fa-regular fa-clock"></i>
+		</div>
+		<div class="nav-link">
+			<a href="{% url 'studentattendance' %}" class="sidebar-links">Attendance</a>
+		</div>
+	</div>
+
+	<div class="link">
+		<div class="nav-icon">
+			<i class="fa-solid fa-pen-to-square"></i>
+		</div>
+		<div class="nav-link">
+			<a href="{% url 'viewassignments' %}" class="sidebar-links">Assignment</a>
+		</div>
+	</div>
+
+	<div class="link">
+		<div class="nav-icon">
+			<i class="fa-solid fa-bell"></i>
+		</div>
+		<div class="nav-link">
+			<a href="{% url 'viewannouncement' %}" class="sidebar-links">Notifications</a>
+		</div>
+	</div>
+
+	<div class="link">
+		<div class="nav-icon">
+			<i class="fa-solid fa-calendar-days"></i>
+		</div>
+		<div class="nav-link">
+			<a href="{% url 'leave_planner' %}" class="sidebar-links">Apply For Leave</a>
+		</div>
+	</div>
+	
+	{% endif %}
+
+	
+</div>
+
+<div class="end-box">
+
+	
+</div>
+
+
+
+
+
+
+
+
+

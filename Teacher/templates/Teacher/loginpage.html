@@ -1,0 +1,177 @@
+{% load static %}
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Login page for Class Tracker by Aptech Learning.">
+	<link rel="stylesheet" href="{% static 'Teacher/css/bootstrap.css' %}">
+	<link rel="stylesheet" href="{% static 'Teacher/css/style.css' %}">
+	<title>Login - Class Tracker</title>
+	<style>
+		
+		.login-container{
+			width: 100vw;
+			height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		
+
+		.login-box{
+			width: 50%;
+			height: 500px;
+			display: flex;
+			justify-content: center;
+			box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+			border-radius: 20px;
+		}
+
+
+		.login-image{
+			width: 50%;
+			height: 100%;
+			position: relative;
+			border-radius: 20px 0 0 20px;
+		}
+
+		.login-image img{
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			border-radius: 20px 0 0 20px;
+		}
+
+		.login-content{
+			width: 50%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.web-name{
+			width: 100%;
+			height: 30%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: center;
+			padding: 20px;
+		}
+
+		.web-name h1,p{
+			/* color: #e3f6f5; */
+		}
+
+		.login-content .form-div{
+			width: 100%;
+			height: 70%;
+			padding: 20px;
+		}
+
+		.login-box .logo-img{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			width: 60%;
+			height: 60%;
+		} 
+
+
+		@media (max-width:1368px) {
+			
+			.login-box .logo-img{
+				width: 50%;
+				height: 40%;
+			}
+		}
+
+
+
+		@media (max-width:768px) {
+			.login-box {
+				width: 100%;	
+				display: flex;
+				flex-direction: column;
+				height: 100%;
+				border-radius: 0;
+			}
+
+			.login-image{
+				width: 100%;
+			}
+			
+			.login-image img{
+				width: 100%;
+				height: 100%;
+				border-radius: 0;
+			}
+
+			.login-content{
+				width: 100%;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				align-items: center;
+				border-radius:0;
+			}
+
+			.login-box .logo-img{
+				width: 60%;
+				height: 60%;
+			}
+		}
+	</style>
+</head>
+<body>
+	
+	<div class="login-container">
+		<div class="login-box">
+			<div class="login-image">
+				<img src="{% static 'teacher/images/svg.jpg' %}" alt="Class Tracker Login Image">
+				<img src="{% static 'teacher/images/login_page_logo.png' %}" alt="Class Tracker Login Image" class="logo-img">
+			</div>
+			<div class="login-content">
+				<div class="web-name">
+					<h1>Welcome!</h1>
+					<p>Log in to your account to continue</p>
+				</div>
+				<div class="form-div">
+					<form action="{% url 'login' %}" method="POST" novalidate> 
+						{% csrf_token %}
+
+						{% if form.non_field_errors %}
+						<div class="alert alert-danger">
+							{% for error in form.non_field_errors %}
+							<p>{{ error }}</p>
+							{% endfor %}
+						</div>
+						{% endif %}
+						
+
+						{% for fm in form %}
+						<div class="form-group">
+							{{ fm }} <small class="text-danger">{{ fm.errors|striptags }}</small>
+						</div>
+						{% endfor %}
+
+						<a href="{% url 'forget_password' %}" class="float-end mt-3 text-primary">Forgot Password?</a>
+
+						<div class="text-center">
+							<input type="submit" class="btn buttoncolor mt-3 w-100" value="Login">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="{% static 'Teacher/js/jquery.js' %}"></script>
+	<script src="{% static 'Teacher/js/popper.js' %}"></script>
+	<script src="{% static 'Teacher/js/bootstrap.js' %}"></script>
+	<script src="{% static 'Teacher/js/script.js' %}"></script>
+</body>
+</html>

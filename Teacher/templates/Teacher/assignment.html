@@ -1,0 +1,75 @@
+{% extends "Teacher/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+    <h4 class="container mt-3 pb-2 borderline  textcolor">Assignment</h4>
+
+        {% if messages %}
+            {% for message in messages %}
+                <h4 class="alert alert-{{ message.tags }} container text-center my-5">{{ message }}</h4>
+            {% endfor %}
+        {% endif %}
+
+    <div class="container formbgcolor formshadow p-3 mt-5 rounded-3">
+
+        <div class="row">
+
+            <div class="col-sm-6 ">
+
+                <form action="" method="POST" enctype="multipart/form-data">
+
+                    {% csrf_token %}
+
+                    {{form.as_p}}
+
+                    <input type="submit" class="btn buttoncolor" value='Submit'>
+
+                </form>
+
+            </div>
+
+            <div class="col-sm-6 p-3">
+
+                <table class="table text-center formbgcolor mt-2">
+
+                    <thead>
+
+                        <tr>
+
+                        <th>Batch</th>
+
+                        <th>Action</th>
+
+                    </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        {% for batch in batches %}
+
+                        <tr>
+
+                            <td>{{batch.batch_name}}</td>
+
+                            <td><a href="{% url "passignment" batch.batch_id %}" class="view-Assignment-btn btn buttoncolor">view Assignment</a></td>
+
+                        </tr>
+
+                        {% endfor %}
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    
+
+{% endblock content %}

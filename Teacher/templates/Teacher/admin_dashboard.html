@@ -1,0 +1,360 @@
+{% extends "Teacher/base.html" %}
+{% load static %}
+
+{% block content %}
+
+<div class="row_1">
+
+
+    <div class="col_1 formshadow">
+        <div class="first-text">
+            <p>Teacher's Profile</p>
+            <h4>Welcome {{name}}</h4>
+        </div>
+
+        <div class="second-box">
+            <img src="{% static 'Teacher/images/19738.jpg' %}" alt="">
+        </div>
+    </div>
+
+
+    <div class="col_2 formshadow">
+        <div class="first-text">
+            <h4 class="text-center">{{sum_stud}}+</h4>
+            <h4>Total Students</h4>
+        </div>
+
+        <div class="second-box">
+            <i class="fa-solid fa-user fa-2x"></i>
+        </div>
+    </div>
+
+
+    <div class="col_3 formshadow">
+        <div class="first-text">
+            <h4 class="text-center">{{sum_batch}}+</h4>
+            <h4>Total Batches</h4>
+        </div>
+
+        <div class="second-box">
+            <i class="fa-solid fa-layer-group fa-2x"></i>
+        </div>
+    </div>
+
+
+</div>
+
+
+<div class="row_2 mt-5">
+
+    <div class="col_1 formshadow">
+        <div class="calendar">
+            <div class="header">
+                <button id="prevMonth"><i class="fa-solid fa-arrow-left"></i></button>
+                <span id="monthYear"></span>
+                <button id="nextMonth"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="days">
+                <div>Sun</div>
+                <div>Mon</div>
+                <div>Tue</div>
+                <div>Wed</div>
+                <div>Thu</div>
+                <div>Fri</div>
+                <div>Sat</div>
+            </div>
+            <div id="calendarGrid" class="calendar-grid">
+                <!-- Calendar days will be generated here -->
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="col_2 formshadow">
+        <div class="task-list">
+            <div class="task-header">
+                <h2>Tasks</h2>
+                <a href="{% url 'add_task' %}"><i class="fa-solid fa-circle-plus fa-2x"></i></a>
+            </div>
+            <div id="taskList">
+                <table class="table table-hover">
+                    <thead>
+                        <tr class="text-center">
+                            <th scope="col">Task</th>
+                            <th scope="col">Start</th>
+                            <th scope="col">End</th>
+                            <th scope="col">ST</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    {% for task in tasks %}
+                    {% if task.task_status == "Complete" %}
+                    <tr class="text-center">
+                        <td class="task-over"><a href="{% url 'updatetask' task.id %}">{{task.description|truncatewords:2}}</a></td>
+                        <td>{{task.starttime}}</td>
+                        <td>{{task.endtime}}</td>
+                        <td><form action="{% url "todaytaskdelete" task.id %}" method="post">
+                            {% csrf_token %}
+                            <button type='submit' class='delete_task btn buttoncolor btn-sm p-2'><i class="fa-solid fa-trash"></i></button>
+                        </form></td>
+                    </tr>
+                    {% elif task.task_status == "Pending" %}
+                    <tr class="text-center">
+                        <td><a href="{% url 'updatetask' task.id %}">{{task.description|truncatewords:2}}</a></td>
+                        <td>{{task.starttime}}</td>
+                        <td>{{task.endtime}}</td>
+                        <td><form action="{% url "todaytaskdelete" task.id %}" method="post">
+                            {% csrf_token %}
+                            <button type='submit' class='delete_task btn buttoncolor btn-sm p-2'><i class="fa-solid fa-trash"></i></button>
+                        </form></td>
+                    </tr>
+                    {% endif %}
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col_3 formshadow">
+        {% for announ in announcement %}
+        <div class="card text-white mb-3 dashboard_announcment">
+            <div class="card-header"><p class="card-title">{{announ.created_at}}</p></div>
+            <div class="card-body">
+              <p class="card-text">{{announ.announcement|truncatewords:8}}</p>
+              
+              <h6 class="card-title"><a href=" {% url "announcementdetail" announ.id %}">{{i.announcement|truncatewords:5}}<span class='text-primary'>Read-more</span></a></h6>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="row_3 mt-5">
+    <table class="table table-hover">
+
+        <thead>
+
+          <tr class="text-center">
+
+            {% comment %} <th scope="col">ID</th> {% endcomment %}
+
+            <th scope="col">Name</th>
+
+            <th scope="col">Faculty</th>
+
+            
+
+            <th scope="col">start</th>
+
+            <th scope="col">end</th>
+
+            <th scope="col">Show</th>
+
+
+          </tr>
+
+        </thead>
+
+        <tbody>
+
+        {% for batch in batches %}
+
+        <tr class="text-center">
+
+            {% comment %} <th scope="row">{{batch.batch_id}}</th> {% endcomment %}
+
+            <td><a href="{% url 'updatebatch' batch.batch_id %}">{{batch.batch_name}}</a></td>
+
+            <td>{{batch.batch_faculty}}</td>
+
+            <td>{{batch.batch_starttime}}</td>
+
+            <td>{{batch.batch_endtime}}</td>
+
+
+            {% comment %} <td><a href="{% url 'showbatchstudent' batch.batch_id %}" class="btn buttoncolor text-white btn-sm">Students</a></td> {% endcomment %}
+
+            <td>
+
+                {% comment %} <a href="{% url 'updatebatch' batch.batch_id %}" class="btn btn-warning btn-sm">View</a> {% endcomment %}
+
+                <a href="{% url 'showbatchstudent' batch.batch_id %}" class="btn buttoncolor btn-sm">Students</a>
+
+                <form action="{% url 'deletebatch' batch.batch_id %}" method="post" class="d-inline">
+
+                    {% csrf_token %}
+
+                    <input type="submit" class="btn btn-danger btn-sm" value="Delete"/>
+
+                </form>
+
+            </td>
+
+        </tr>
+
+        {% endfor %}
+
+        </tbody>
+
+      </table>
+
+</div>
+
+
+<script>
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const calendarGrid = document.getElementById('calendarGrid');
+        const monthYear = document.getElementById('monthYear');
+        const prevMonth = document.getElementById('prevMonth');
+        const nextMonth = document.getElementById('nextMonth');
+        const taskList = document.getElementById('taskList');
+        
+        let currentMonth = new Date().getMonth();
+        let currentYear = new Date().getFullYear();
+    
+        function renderCalendar(month, year) {
+            calendarGrid.innerHTML = '';  // Clear the calendar grid
+            const firstDay = new Date(year, month, 1).getDay();  // Get the day of the week for the 1st of the month
+            const lastDate = new Date(year, month + 1, 0).getDate();  // Get the last date of the month
+        
+            monthYear.textContent = `${new Date(year, month).toLocaleString('default', { month: 'long' })} ${year}`;
+        
+            // Add empty divs for days before the first day of the month
+            for (let i = 0; i < firstDay; i++) {
+                const emptyDiv = document.createElement('div');
+                calendarGrid.appendChild(emptyDiv);
+            }
+        
+            // Create a div for each day of the month
+            for (let day = 1; day <= lastDate; day++) {
+                const dayDiv = document.createElement('div');
+                dayDiv.textContent = day;
+                // Set the data-date attribute to a string in the format YYYY-MM-DD
+                dayDiv.dataset.date = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+                dayDiv.classList.add('calendar-day');
+                dayDiv.addEventListener('click', fetchTasks);  // Attach the click event to fetch tasks for the selected date
+                calendarGrid.appendChild(dayDiv);  // Add the day div to the calendar grid
+            }
+        }
+    
+        function updateMonth(offset) {
+            currentMonth += offset;
+            if (currentMonth > 11) {
+                currentMonth = 0;
+                currentYear++;
+            } else if (currentMonth < 0) {
+                currentMonth = 11;
+                currentYear--;
+            }
+            renderCalendar(currentMonth, currentYear);
+        }
+    
+        function fetchTasks(event) {
+            const date = event.target.dataset.date;
+            fetch(`/teacher/tasks/${date}/`)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! Status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    taskList.innerHTML = ''; // Clear previous tasks
+                    if (data.tasks && data.tasks.length > 0) {
+                        const table = document.createElement('table');
+                        table.classList.add('table');
+                        table.innerHTML = `
+                            <thead>
+                                <tr>
+                                    <th scope="col">Task</th>
+                                    <th scope="col">Start</th>
+                                    <th scope="col">End</th>
+                                    <th scope="col">ST</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${data.tasks.map(task => `
+                                    <tr>
+                                        <td><a href="updatetask/${task.id}" class="${task.task_status === 'Complete' ? 'task-over' : ''}">${task.description.slice(0,10)}...</a></td>
+                                        <td>${task.starttime}</td>
+                                        <td>${task.endtime}</td>
+                                        <td><button class="btn buttoncolor btn-sm delete-task" data-id="${task.id}"><i class="fa-solid fa-trash"></i></button></td>
+                                    </tr>
+                                `).join('')}
+                            </tbody>
+                        `;
+                        taskList.appendChild(table);
+                    } else {
+                        taskList.innerHTML = '<p>No tasks for this date.</p>';
+                    }
+                })
+                .catch(error => {
+                    console.error('Error loading tasks:', error);
+                    taskList.innerHTML = '<p>Error loading tasks.</p>';
+                });
+        }
+        
+        function handleTaskDeletion(event) {
+            if (event.target.classList.contains('delete-task')) {
+                const taskId = event.target.dataset.id;
+                fetch(`/teacher/tasks/delete/${taskId}/`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRFToken': getCookie('csrftoken')  // Include CSRF token
+                    },
+                    body: JSON.stringify({ id: taskId })
+                })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! Status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    if (data.success) {
+                        // Refresh the page to update the task list
+                        location.reload();
+                    } else {
+                        console.error('Error deleting task:', data.error);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error deleting task:', error);
+                });
+            }
+        }
+        
+        document.addEventListener('click', handleTaskDeletion);
+        
+        function getCookie(name) {
+            let cookieValue = null;
+            if (document.cookie && document.cookie !== '') {
+                const cookies = document.cookie.split(';');
+                for (let i = 0; i < cookies.length; i++) {
+                    const cookie = cookies[i].trim();
+                    if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                        break;
+                    }
+                }
+            }
+            return cookieValue;
+        }
+    
+        prevMonth.addEventListener('click', () => updateMonth(-1));
+        nextMonth.addEventListener('click', () => updateMonth(1));
+        document.addEventListener('click', handleTaskDeletion);
+    
+        renderCalendar(currentMonth, currentYear);
+    });
+    
+
+</script>
+{% endblock content %}
+
+
+

@@ -1,0 +1,124 @@
+{% extends "Teacher/base.html" %}
+{% load static %}
+
+{% block content %}
+    <div class="first-row">
+        <div class="col_1 formshadow">
+            <img src="{% static 'Teacher/images/New_Logo_2.jpg' %}" alt="">
+        </div>
+        <div class="col_2">
+            <canvas id="myChart" aria-label="chart" role="img" ></canvas>
+        </div>
+    </div>
+
+    <div class="second-row">
+        <div class="col_1">
+            <div class="profile_card_id-card">
+
+                <div class="profile_card_header"></div>
+        
+                <div class="profile_card_profile-picture">
+                    {% if stud_data.student_image %}
+                    <img src="{{stud_data.student_image.url}}" alt="Profile Picture">
+                    {% else %}
+                    <img src="{% static 'Teacher/images/user-default.png' %}" alt="Not Img">
+                    {% endif %}
+                    
+        
+                </div>
+        
+                <div class="profile_card_details">
+        
+                    <h3>{{stud_data.student_name}}</h3>
+        
+                    <p>STUDENT</p>
+        
+                    <div class="profile_card_info">
+        
+                        <p>Batch <span>{{batch}}</span></p>
+        
+                        <p>Student Id <span>{{stud_data.student_id}}</span></p>
+        
+                        <p>E-mail <span>{{email.email}}</span></p>
+        
+                        <p>Mobile No <span>{{stud_data.student_number}}</span></p>
+        
+                        <p>D.O.B. <span>{{stud_data.student_dob}}</span></p>
+        
+                    </div>
+        
+                </div>
+        
+                <div class="profile_card_footer">
+        
+                    {% comment %} <p>aptechlearningborivali@gmail.com</p> {% endcomment %}
+        
+                </div>
+        
+           </div>
+
+        </div>
+
+
+        <div class="col_2">
+            {% if assignment %}
+            {% for assign in assignment %}
+            <div class="card assignment_card_dashboard mt-3">
+                <div class="card-body">
+                  <h6 class="card-title ">Assignment<hr></h6>
+                  <p class="card-subtitle mb-2 mt-2 ">{{assign.created_at}}</p>
+                  <h6 class="card-text">{{assign.message|truncatewords:6}}</h6>
+                  {% if assign.file %}
+                  {% comment %} <p class="card-subtitle mb-2 mt-2">{{assign.file.url}}</p> {% endcomment %}
+                  <a href="{{ assign.file.url }}" download="{{ assign.file.name }}" class='btn btn-light mt-2'>Download</a>
+                  {% else %}
+                  <p>No Document</p>
+                  {% endif %}   
+                </div>
+            </div>
+            {% endfor %}
+            {% endif %}
+        </div>
+
+
+        <div class="col_3">
+            {% for announ in announcement %}
+            <div class="card text-white mt-3 dashboard_announcment">
+                <div class="card-header"><p class="card-title">{{announ.created_at}}</p></div>
+                <div class="card-body">
+                <p class="card-text">{{announ.announcement|truncatewords:8}}</p>
+                
+                <h6 class="card-title"><a href=" {% url "announcementdetail" announ.id %}">{{i.announcement|truncatewords:5}}<span class='text-primary'>Read-more</span></a></h6>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% comment %} labels: ['January', 'February', 'March', 'April', 'May', 'June','July','August','September','October','November','December'], {% endcomment %}
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+    <script>
+    const ctx = document.getElementById('myChart');
+
+    new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+        labels: {{months|safe}},
+        datasets: [{
+            label: 'Attendance',
+            data: {{months_counts|safe}},
+            borderWidth: 1
+        }]
+        },
+        options: {
+        scales: {
+            y: {
+            beginAtZero: true
+            }
+        }
+        }
+    });
+    </script>
+{% endblock content %}

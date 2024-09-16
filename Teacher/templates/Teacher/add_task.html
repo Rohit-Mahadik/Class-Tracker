@@ -1,0 +1,19 @@
+{% extends "Teacher/base.html" %}
+
+
+{% block content %}
+<h4 class="container  mt-3 borderline pb-2 textcolor">Add New Task</h4>
+
+{% if messages %}
+  {% for message in messages %}
+<p {% if message.tags %} class="alert alert-{{ message.tags }} container text-center mt-5" {% endif %}>{{ message }}</p>
+  {% endfor %}
+{% endif %}
+
+    <form method="post" class="container mt-5">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class='buttoncolor btn mt-3'>Add Task</button>
+    </form>
+
+{% endblock content %}

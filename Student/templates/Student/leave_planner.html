@@ -1,0 +1,91 @@
+{% extends "Teacher/base.html" %}
+{% load static %}
+{% block content %}
+
+<h4 class="container mt-3 borderline pb-2 textcolor">Leave Planner</h4>
+
+{% if messages %}
+    {% for message in messages %}
+    <p {% if message.tags %} class="alert alert-{{ message.tags }} container mt-5 text-center" {% endif %}> {{ message }} </p>
+    {% endfor %}
+{% endif %}
+
+<form action="" method="post" class="container formbgcolor rounded-3 p-2 formshadow mt-5">
+  {% csrf_token %}
+
+  <div class="row">
+    <div class="col-sm-6">
+      <p>{{fm.leave_startdate.label}} {{fm.leave_startdate}}</p>
+    </div>
+
+    <div class="col-sm-6">
+      <p>{{fm.leave_enddate.label}} {{fm.leave_enddate}}</p>
+    </div>
+
+    <div class="col-sm-6 mt-3">
+      <p>{{fm.leave_type.label}} {{fm.leave_type}}</p>
+    </div>
+
+    <div class="col-sm-6">
+      <p>{{fm.leave_reason.label}} {{fm.leave_reason}}</p>
+    </div>
+
+    <div class="col-sm-6">
+      <p>{{fm.leave_status.label}} {{fm.leave_status}}</p>
+    </div>
+  </div>
+
+  <input type="submit" class="btn buttoncolor" value="Add Leave"/>
+</form>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-12">
+      {% if application %}
+
+      <table class="table table-hover container leaves_table">
+        <thead>
+          <tr class="text-center ">
+            <th scope="col">Student Name</th>
+
+            <th scope="col">Leave Startdate</th>
+
+            <th scope="col">Leave Enddate</th>
+
+            <th scope="col">Leave Reason</th>
+
+            <th scope="col">Leave Status</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          {% for app in application %}
+
+          <tr class="text-center">
+            {% comment %}
+            <th scope="row">{{app.student_name}}</th>
+            {% endcomment %}
+
+            <td>{{app.student_name}}</td>
+
+            <td>{{app.leave_startdate}}</td>
+
+            <td>{{app.leave_enddate}}</td>
+
+            <td>{{app.leave_reason}}</td>
+
+            <td>{{app.leave_status}}</td>
+          </tr>
+
+          {% endfor %} {% else %}
+
+          <h2 class="alert alert-warning text-center">No Records</h2>
+
+          {% endif %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+{% endblock content %}

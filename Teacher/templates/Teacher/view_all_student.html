@@ -1,0 +1,116 @@
+
+{% extends "Teacher/base.html" %}
+
+{% load static %}
+
+
+{% block content %}
+
+<div class="list-student container">
+
+    <h4 class="mt-3 pb-2 borderline textcolor">All Student List</h4>
+    
+    <form action="{% url "searchstudent" %}" method="POST" class="d-flex" novalidate>
+      {% csrf_token %}
+
+      <input class="stud-name-input form-control rounded-3" type="text" placeholder="Search Student" id="search" name="search">
+
+      <input class="stud-input-button btn buttoncolor rounded-3 mx-2" type="submit" value="search">
+
+    </form>
+
+</div>
+
+{% if messages %}
+
+    {% for message in messages %}
+
+    <p {% if message.tags %} class="alert alert-{{ message.tags }} container text-center mt-5"{% endif %}>{{ message }}</p>
+
+    {% endfor %}
+
+{% endif %}
+
+
+
+<div class="all-student-list container formbgcolor p-2 formshadow mt-5 rounded-3">
+
+    <div class="row">
+
+          <div class="container">
+
+            <table class="table table-hover">
+
+              <thead>
+
+                <tr class="text-center">
+
+                  <th scope="col">Id</th>
+
+                  <th scope="col">Student Name</th>
+
+                  <th scope="col">Contact Number</th>
+
+                  <th scope="col">Student Status</th>
+
+                </tr>
+
+              </thead>
+
+
+              <tbody>
+
+              {% for s in studInfo %}
+              
+              <tr>
+              
+              <td class="align-middle text-center"><a class="text-primary" href="{% url 'updatestudent' s.student_id %}">{{s.student_id}}</a></td>
+
+              <td class="align-middle text-center">{{s.student_name}}</td>
+
+              <td class="align-middle text-center">{{s.student_number}}</td>
+
+              <td class="align-middle text-center">{{s.student_status}}</td>
+            
+              </tr>
+
+              {% endfor %}
+
+              {% if student %}
+
+              {% for s in student %}
+              
+              <tr>
+              
+              <td class="align-middle text-center"><a class="text-primary" href="{% url 'updatestudent' s.student_id %}">{{s.student_id}}</a></td>
+
+              <td class="align-middle text-center">{{s.student_name}}</td>
+
+              <td class="align-middle text-center">{{s.student_number}}</td>
+
+              <td class="align-middle text-center">{{s.student_status}}</td>
+            
+              </tr>
+
+
+              {% endfor %}
+
+              {% elif s not in student %}
+
+              <h4 class="alert alert-info text-center">No Student Found</h4>
+              
+              {% endif %}
+              
+
+              </tbody>
+
+            </table>
+
+        </div>
+
+</div>
+
+
+
+
+{% endblock content %}
